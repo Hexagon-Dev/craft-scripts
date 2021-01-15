@@ -41,6 +41,7 @@ val glowstone = <minecraft:glowstone>;
 val workbench = <minecraft:crafting_table>;
 val glass = <minecraft:glass>;
 val chest = <minecraft:chest>;
+val glassPane = <minecraft:glass_pane>;
 
 
 //Plates
