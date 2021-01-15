@@ -108,6 +108,7 @@ val energyCrystal = <ic2:energy_crystal:*>;
 val energyLapisCrystal = <ic2:lapotron_crystal:*>;
 
 //Machines
+val machineBlock = <ic2:resource:12>;
 val ironFurnance = <ic2:te:46>;
 val generator = <ic2:te:3>;
 
