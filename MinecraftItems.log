@@ -1,0 +1,2318 @@
+[PREINITIALIZATION][SERVER][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
+AdaraChristine
+BigAl607
+Robijnvogel
+Spool
+Pongo Sapiens
+quaternary
+IDroid
+technium
+Genryu
+DreamThorn
+NickT
+Ivy_
+Peregrinus11
+Jonathan McManus
+realTIMematrix
+otakup0pe
+If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
+
+[PREINITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit]]
+[PREINITIALIZATION][SERVER][INFO] Loading scripts for loader with names [preinit]
+[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 0ms
+[INITIALIZATION][SERVER][INFO] CraftTweaker: Building registry
+[INITIALIZATION][SERVER][INFO] CraftTweaker: Successfully built item registry
+[INITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit], [recipeevent | crafttweaker]]
+[INITIALIZATION][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
+[INITIALIZATION][SERVER][INFO] Completed script loading in: 0ms
+[POSTINITIALIZATION][SERVER][INFO] Removing recipes for various outputs
+Ore entries for <ore:logWood> :
+-<minecraft:log:*>
+-<minecraft:log2:*>
+-<forestry:logs.0:*>
+-<forestry:logs.1:*>
+-<forestry:logs.2:*>
+-<forestry:logs.3:*>
+-<forestry:logs.4:*>
+-<forestry:logs.5:*>
+-<forestry:logs.6:*>
+-<forestry:logs.7:*>
+-<forestry:logs.fireproof.0:*>
+-<forestry:logs.fireproof.1:*>
+-<forestry:logs.fireproof.2:*>
+-<forestry:logs.fireproof.3:*>
+-<forestry:logs.fireproof.4:*>
+-<forestry:logs.fireproof.5:*>
+-<forestry:logs.fireproof.6:*>
+-<forestry:logs.fireproof.7:*>
+-<forestry:logs.vanilla.fireproof.0:*>
+-<forestry:logs.vanilla.fireproof.1:*>
+-<extratrees:logs.0:*>
+-<extratrees:logs.1:*>
+-<extratrees:logs.2:*>
+-<extratrees:logs.3:*>
+-<extratrees:logs.4:*>
+-<extratrees:logs.5:*>
+-<extratrees:logs.6:*>
+-<extratrees:logs.7:*>
+-<extratrees:logs.8:*>
+-<extratrees:logs.9:*>
+-<extratrees:logs.fireproof.0:*>
+-<extratrees:logs.fireproof.1:*>
+-<extratrees:logs.fireproof.2:*>
+-<extratrees:logs.fireproof.3:*>
+-<extratrees:logs.fireproof.4:*>
+-<extratrees:logs.fireproof.5:*>
+-<extratrees:logs.fireproof.6:*>
+-<extratrees:logs.fireproof.7:*>
+-<extratrees:logs.fireproof.8:*>
+-<extratrees:logs.fireproof.9:*>
+-<biomesoplenty:log_0:4>
+-<biomesoplenty:log_0:5>
+-<biomesoplenty:log_0:6>
+-<biomesoplenty:log_0:7>
+-<biomesoplenty:log_1:4>
+-<biomesoplenty:log_1:5>
+-<biomesoplenty:log_1:6>
+-<biomesoplenty:log_1:7>
+-<biomesoplenty:log_2:4>
+-<biomesoplenty:log_2:5>
+-<biomesoplenty:log_2:6>
+-<biomesoplenty:log_2:7>
+-<biomesoplenty:log_3:4>
+-<biomesoplenty:log_3:5>
+-<biomesoplenty:log_3:6>
+-<biomesoplenty:log_3:7>
+-<biomesoplenty:log_4:4>
+-<biomesoplenty:log_4:5>
+Ore entries for <ore:plankWood> :
+-<minecraft:planks:*>
+-<forestry:planks.0:*>
+-<forestry:planks.1:*>
+-<forestry:planks.fireproof.0:*>
+-<forestry:planks.fireproof.1:*>
+-<forestry:planks.vanilla.fireproof.0:*>
+-<extratrees:planks.0:*>
+-<extratrees:planks.1:*>
+-<extratrees:planks.2:*>
+-<extratrees:planks.fireproof.0:*>
+-<extratrees:planks.fireproof.1:*>
+-<extratrees:planks.fireproof.2:*>
+-<biomesoplenty:planks_0>
+-<biomesoplenty:planks_0:1>
+-<biomesoplenty:planks_0:2>
+-<biomesoplenty:planks_0:3>
+-<biomesoplenty:planks_0:4>
+-<biomesoplenty:planks_0:5>
+-<biomesoplenty:planks_0:6>
+-<biomesoplenty:planks_0:7>
+-<biomesoplenty:planks_0:8>
+-<biomesoplenty:planks_0:9>
+-<biomesoplenty:planks_0:10>
+-<biomesoplenty:planks_0:11>
+-<biomesoplenty:planks_0:12>
+-<biomesoplenty:planks_0:13>
+-<biomesoplenty:planks_0:14>
+-<biomesoplenty:planks_0:15>
+Ore entries for <ore:slabWood> :
+-<minecraft:wooden_slab:*>
+-<forestry:slabs.0:*>
+-<forestry:slabs.1:*>
+-<forestry:slabs.2:*>
+-<forestry:slabs.3:*>
+-<forestry:slabs.fireproof.0:*>
+-<forestry:slabs.fireproof.1:*>
+-<forestry:slabs.fireproof.2:*>
+-<forestry:slabs.fireproof.3:*>
+-<forestry:slabs.vanilla.fireproof.0:*>
+-<extratrees:slabs.0:*>
+-<extratrees:slabs.1:*>
+-<extratrees:slabs.2:*>
+-<extratrees:slabs.3:*>
+-<extratrees:slabs.4:*>
+-<extratrees:slabs.fireproof.0:*>
+-<extratrees:slabs.fireproof.1:*>
+-<extratrees:slabs.fireproof.2:*>
+-<extratrees:slabs.fireproof.3:*>
+-<extratrees:slabs.fireproof.4:*>
+-<biomesoplenty:wood_slab_0>
+-<biomesoplenty:wood_slab_0:1>
+-<biomesoplenty:wood_slab_0:2>
+-<biomesoplenty:wood_slab_0:3>
+-<biomesoplenty:wood_slab_0:4>
+-<biomesoplenty:wood_slab_0:5>
+-<biomesoplenty:wood_slab_0:6>
+-<biomesoplenty:wood_slab_0:7>
+-<biomesoplenty:wood_slab_1>
+-<biomesoplenty:wood_slab_1:1>
+-<biomesoplenty:wood_slab_1:2>
+-<biomesoplenty:wood_slab_1:3>
+-<biomesoplenty:wood_slab_1:4>
+-<biomesoplenty:wood_slab_1:5>
+-<biomesoplenty:wood_slab_1:6>
+-<biomesoplenty:wood_slab_1:7>
+Ore entries for <ore:stairWood> :
+-<minecraft:oak_stairs>
+-<minecraft:spruce_stairs>
+-<minecraft:birch_stairs>
+-<minecraft:jungle_stairs>
+-<minecraft:acacia_stairs>
+-<minecraft:dark_oak_stairs>
+-<forestry:stairs.larch:*>
+-<forestry:stairs.teak:*>
+-<forestry:stairs.acacia:*>
+-<forestry:stairs.lime:*>
+-<forestry:stairs.chestnut:*>
+-<forestry:stairs.wenge:*>
+-<forestry:stairs.baobab:*>
+-<forestry:stairs.sequoia:*>
+-<forestry:stairs.kapok:*>
+-<forestry:stairs.ebony:*>
+-<forestry:stairs.mahogany:*>
+-<forestry:stairs.balsa:*>
+-<forestry:stairs.willow:*>
+-<forestry:stairs.walnut:*>
+-<forestry:stairs.greenheart:*>
+-<forestry:stairs.cherry:*>
+-<forestry:stairs.mahoe:*>
+-<forestry:stairs.poplar:*>
+-<forestry:stairs.palm:*>
+-<forestry:stairs.papaya:*>
+-<forestry:stairs.pine:*>
+-<forestry:stairs.plum:*>
+-<forestry:stairs.maple:*>
+-<forestry:stairs.citrus:*>
+-<forestry:stairs.giganteum:*>
+-<forestry:stairs.ipe:*>
+-<forestry:stairs.padauk:*>
+-<forestry:stairs.cocobolo:*>
+-<forestry:stairs.zebrawood:*>
+-<forestry:stairs.fireproof.larch:*>
+-<forestry:stairs.fireproof.teak:*>
+-<forestry:stairs.fireproof.acacia:*>
+-<forestry:stairs.fireproof.lime:*>
+-<forestry:stairs.fireproof.chestnut:*>
+-<forestry:stairs.fireproof.wenge:*>
+-<forestry:stairs.fireproof.baobab:*>
+-<forestry:stairs.fireproof.sequoia:*>
+-<forestry:stairs.fireproof.kapok:*>
+-<forestry:stairs.fireproof.ebony:*>
+-<forestry:stairs.fireproof.mahogany:*>
+-<forestry:stairs.fireproof.balsa:*>
+-<forestry:stairs.fireproof.willow:*>
+-<forestry:stairs.fireproof.walnut:*>
+-<forestry:stairs.fireproof.greenheart:*>
+-<forestry:stairs.fireproof.cherry:*>
+-<forestry:stairs.fireproof.mahoe:*>
+-<forestry:stairs.fireproof.poplar:*>
+-<forestry:stairs.fireproof.palm:*>
+-<forestry:stairs.fireproof.papaya:*>
+-<forestry:stairs.fireproof.pine:*>
+-<forestry:stairs.fireproof.plum:*>
+-<forestry:stairs.fireproof.maple:*>
+-<forestry:stairs.fireproof.citrus:*>
+-<forestry:stairs.fireproof.giganteum:*>
+-<forestry:stairs.fireproof.ipe:*>
+-<forestry:stairs.fireproof.padauk:*>
+-<forestry:stairs.fireproof.cocobolo:*>
+-<forestry:stairs.fireproof.zebrawood:*>
+-<forestry:stairs.vanilla.fireproof.oak:*>
+-<forestry:stairs.vanilla.fireproof.spruce:*>
+-<forestry:stairs.vanilla.fireproof.birch:*>
+-<forestry:stairs.vanilla.fireproof.jungle:*>
+-<forestry:stairs.vanilla.fireproof.acacia:*>
+-<forestry:stairs.vanilla.fireproof.dark_oak:*>
+-<extratrees:stairs.apple:*>
+-<extratrees:stairs.fig:*>
+-<extratrees:stairs.butternut:*>
+-<extratrees:stairs.whitebeam:*>
+-<extratrees:stairs.rowan:*>
+-<extratrees:stairs.hemlock:*>
+-<extratrees:stairs.ash:*>
+-<extratrees:stairs.alder:*>
+-<extratrees:stairs.beech:*>
+-<extratrees:stairs.hawthorn:*>
+-<extratrees:stairs.banana:*>
+-<extratrees:stairs.yew:*>
+-<extratrees:stairs.cypress:*>
+-<extratrees:stairs.fir:*>
+-<extratrees:stairs.hazel:*>
+-<extratrees:stairs.hickory:*>
+-<extratrees:stairs.elm:*>
+-<extratrees:stairs.elder:*>
+-<extratrees:stairs.holly:*>
+-<extratrees:stairs.hornbeam:*>
+-<extratrees:stairs.cedar:*>
+-<extratrees:stairs.olive:*>
+-<extratrees:stairs.sweetgum:*>
+-<extratrees:stairs.locust:*>
+-<extratrees:stairs.pear:*>
+-<extratrees:stairs.maclura:*>
+-<extratrees:stairs.brazilwood:*>
+-<extratrees:stairs.logwood:*>
+-<extratrees:stairs.rosewood:*>
+-<extratrees:stairs.purpleheart:*>
+-<extratrees:stairs.iroko:*>
+-<extratrees:stairs.gingko:*>
+-<extratrees:stairs.eucalyptus:*>
+-<extratrees:stairs.box:*>
+-<extratrees:stairs.syzgium:*>
+-<extratrees:stairs.pinkivory:*>
+-<extratrees:stairs.fireproof.apple:*>
+-<extratrees:stairs.fireproof.fig:*>
+-<extratrees:stairs.fireproof.butternut:*>
+-<extratrees:stairs.fireproof.whitebeam:*>
+-<extratrees:stairs.fireproof.rowan:*>
+-<extratrees:stairs.fireproof.hemlock:*>
+-<extratrees:stairs.fireproof.ash:*>
+-<extratrees:stairs.fireproof.alder:*>
+-<extratrees:stairs.fireproof.beech:*>
+-<extratrees:stairs.fireproof.hawthorn:*>
+-<extratrees:stairs.fireproof.banana:*>
+-<extratrees:stairs.fireproof.yew:*>
+-<extratrees:stairs.fireproof.cypress:*>
+-<extratrees:stairs.fireproof.fir:*>
+-<extratrees:stairs.fireproof.hazel:*>
+-<extratrees:stairs.fireproof.hickory:*>
+-<extratrees:stairs.fireproof.elm:*>
+-<extratrees:stairs.fireproof.elder:*>
+-<extratrees:stairs.fireproof.holly:*>
+-<extratrees:stairs.fireproof.hornbeam:*>
+-<extratrees:stairs.fireproof.cedar:*>
+-<extratrees:stairs.fireproof.olive:*>
+-<extratrees:stairs.fireproof.sweetgum:*>
+-<extratrees:stairs.fireproof.locust:*>
+-<extratrees:stairs.fireproof.pear:*>
+-<extratrees:stairs.fireproof.maclura:*>
+-<extratrees:stairs.fireproof.brazilwood:*>
+-<extratrees:stairs.fireproof.logwood:*>
+-<extratrees:stairs.fireproof.rosewood:*>
+-<extratrees:stairs.fireproof.purpleheart:*>
+-<extratrees:stairs.fireproof.iroko:*>
+-<extratrees:stairs.fireproof.gingko:*>
+-<extratrees:stairs.fireproof.eucalyptus:*>
+-<extratrees:stairs.fireproof.box:*>
+-<extratrees:stairs.fireproof.syzgium:*>
+-<extratrees:stairs.fireproof.pinkivory:*>
+-<biomesoplenty:sacred_oak_stairs>
+-<biomesoplenty:cherry_stairs>
+-<biomesoplenty:umbran_stairs>
+-<biomesoplenty:fir_stairs>
+-<biomesoplenty:ethereal_stairs>
+-<biomesoplenty:magic_stairs>
+-<biomesoplenty:mangrove_stairs>
+-<biomesoplenty:palm_stairs>
+-<biomesoplenty:redwood_stairs>
+-<biomesoplenty:willow_stairs>
+-<biomesoplenty:pine_stairs>
+-<biomesoplenty:hellbark_stairs>
+-<biomesoplenty:jacaranda_stairs>
+-<biomesoplenty:mahogany_stairs>
+-<biomesoplenty:ebony_stairs>
+-<biomesoplenty:eucalyptus_stairs>
+Ore entries for <ore:fenceWood> :
+-<minecraft:fence>
+-<minecraft:spruce_fence>
+-<minecraft:birch_fence>
+-<minecraft:jungle_fence>
+-<minecraft:dark_oak_fence>
+-<minecraft:acacia_fence>
+-<forestry:fences.0:*>
+-<forestry:fences.1:*>
+-<forestry:fences.fireproof.0:*>
+-<forestry:fences.fireproof.1:*>
+-<forestry:fences.vanilla.fireproof.0:*>
+-<extratrees:fences.0:*>
+-<extratrees:fences.1:*>
+-<extratrees:fences.2:*>
+-<extratrees:fences.fireproof.0:*>
+-<extratrees:fences.fireproof.1:*>
+-<extratrees:fences.fireproof.2:*>
+-<biomesoplenty:sacred_oak_fence>
+-<biomesoplenty:cherry_fence>
+-<biomesoplenty:umbran_fence>
+-<biomesoplenty:fir_fence>
+-<biomesoplenty:ethereal_fence>
+-<biomesoplenty:magic_fence>
+-<biomesoplenty:mangrove_fence>
+-<biomesoplenty:palm_fence>
+-<biomesoplenty:redwood_fence>
+-<biomesoplenty:willow_fence>
+-<biomesoplenty:pine_fence>
+-<biomesoplenty:hellbark_fence>
+-<biomesoplenty:jacaranda_fence>
+-<biomesoplenty:mahogany_fence>
+-<biomesoplenty:ebony_fence>
+-<biomesoplenty:eucalyptus_fence>
+Ore entries for <ore:fenceGateWood> :
+-<minecraft:fence_gate>
+-<minecraft:spruce_fence_gate>
+-<minecraft:birch_fence_gate>
+-<minecraft:jungle_fence_gate>
+-<minecraft:dark_oak_fence_gate>
+-<minecraft:acacia_fence_gate>
+-<forestry:fence.gates.larch:*>
+-<forestry:fence.gates.fireproof.larch:*>
+-<forestry:fence.gates.teak:*>
+-<forestry:fence.gates.fireproof.teak:*>
+-<forestry:fence.gates.acacia:*>
+-<forestry:fence.gates.fireproof.acacia:*>
+-<forestry:fence.gates.lime:*>
+-<forestry:fence.gates.fireproof.lime:*>
+-<forestry:fence.gates.chestnut:*>
+-<forestry:fence.gates.fireproof.chestnut:*>
+-<forestry:fence.gates.wenge:*>
+-<forestry:fence.gates.fireproof.wenge:*>
+-<forestry:fence.gates.baobab:*>
+-<forestry:fence.gates.fireproof.baobab:*>
+-<forestry:fence.gates.sequoia:*>
+-<forestry:fence.gates.fireproof.sequoia:*>
+-<forestry:fence.gates.kapok:*>
+-<forestry:fence.gates.fireproof.kapok:*>
+-<forestry:fence.gates.ebony:*>
+-<forestry:fence.gates.fireproof.ebony:*>
+-<forestry:fence.gates.mahogany:*>
+-<forestry:fence.gates.fireproof.mahogany:*>
+-<forestry:fence.gates.balsa:*>
+-<forestry:fence.gates.fireproof.balsa:*>
+-<forestry:fence.gates.willow:*>
+-<forestry:fence.gates.fireproof.willow:*>
+-<forestry:fence.gates.walnut:*>
+-<forestry:fence.gates.fireproof.walnut:*>
+-<forestry:fence.gates.greenheart:*>
+-<forestry:fence.gates.fireproof.greenheart:*>
+-<forestry:fence.gates.cherry:*>
+-<forestry:fence.gates.fireproof.cherry:*>
+-<forestry:fence.gates.mahoe:*>
+-<forestry:fence.gates.fireproof.mahoe:*>
+-<forestry:fence.gates.poplar:*>
+-<forestry:fence.gates.fireproof.poplar:*>
+-<forestry:fence.gates.palm:*>
+-<forestry:fence.gates.fireproof.palm:*>
+-<forestry:fence.gates.papaya:*>
+-<forestry:fence.gates.fireproof.papaya:*>
+-<forestry:fence.gates.pine:*>
+-<forestry:fence.gates.fireproof.pine:*>
+-<forestry:fence.gates.plum:*>
+-<forestry:fence.gates.fireproof.plum:*>
+-<forestry:fence.gates.maple:*>
+-<forestry:fence.gates.fireproof.maple:*>
+-<forestry:fence.gates.citrus:*>
+-<forestry:fence.gates.fireproof.citrus:*>
+-<forestry:fence.gates.giganteum:*>
+-<forestry:fence.gates.fireproof.giganteum:*>
+-<forestry:fence.gates.ipe:*>
+-<forestry:fence.gates.fireproof.ipe:*>
+-<forestry:fence.gates.padauk:*>
+-<forestry:fence.gates.fireproof.padauk:*>
+-<forestry:fence.gates.cocobolo:*>
+-<forestry:fence.gates.fireproof.cocobolo:*>
+-<forestry:fence.gates.zebrawood:*>
+-<forestry:fence.gates.fireproof.zebrawood:*>
+-<forestry:fence.gates.vanilla.fireproof.oak:*>
+-<forestry:fence.gates.vanilla.fireproof.spruce:*>
+-<forestry:fence.gates.vanilla.fireproof.birch:*>
+-<forestry:fence.gates.vanilla.fireproof.jungle:*>
+-<forestry:fence.gates.vanilla.fireproof.acacia:*>
+-<forestry:fence.gates.vanilla.fireproof.dark_oak:*>
+-<extratrees:fence.gates.fir:*>
+-<extratrees:fence.gates.fireproof.fir:*>
+-<extratrees:fence.gates.cedar:*>
+-<extratrees:fence.gates.fireproof.cedar:*>
+-<extratrees:fence.gates.hemlock:*>
+-<extratrees:fence.gates.fireproof.hemlock:*>
+-<extratrees:fence.gates.cypress:*>
+-<extratrees:fence.gates.fireproof.cypress:*>
+-<extratrees:fence.gates.fig:*>
+-<extratrees:fence.gates.fireproof.fig:*>
+-<extratrees:fence.gates.beech:*>
+-<extratrees:fence.gates.fireproof.beech:*>
+-<extratrees:fence.gates.alder:*>
+-<extratrees:fence.gates.fireproof.alder:*>
+-<extratrees:fence.gates.hazel:*>
+-<extratrees:fence.gates.fireproof.hazel:*>
+-<extratrees:fence.gates.hornbeam:*>
+-<extratrees:fence.gates.fireproof.hornbeam:*>
+-<extratrees:fence.gates.box:*>
+-<extratrees:fence.gates.fireproof.box:*>
+-<extratrees:fence.gates.butternut:*>
+-<extratrees:fence.gates.fireproof.butternut:*>
+-<extratrees:fence.gates.hickory:*>
+-<extratrees:fence.gates.fireproof.hickory:*>
+-<extratrees:fence.gates.whitebeam:*>
+-<extratrees:fence.gates.fireproof.whitebeam:*>
+-<extratrees:fence.gates.elm:*>
+-<extratrees:fence.gates.fireproof.elm:*>
+-<extratrees:fence.gates.apple:*>
+-<extratrees:fence.gates.fireproof.apple:*>
+-<extratrees:fence.gates.yew:*>
+-<extratrees:fence.gates.fireproof.yew:*>
+-<extratrees:fence.gates.pear:*>
+-<extratrees:fence.gates.fireproof.pear:*>
+-<extratrees:fence.gates.hawthorn:*>
+-<extratrees:fence.gates.fireproof.hawthorn:*>
+-<extratrees:fence.gates.rowan:*>
+-<extratrees:fence.gates.fireproof.rowan:*>
+-<extratrees:fence.gates.elder:*>
+-<extratrees:fence.gates.fireproof.elder:*>
+-<extratrees:fence.gates.maclura:*>
+-<extratrees:fence.gates.fireproof.maclura:*>
+-<extratrees:fence.gates.syzgium:*>
+-<extratrees:fence.gates.fireproof.syzgium:*>
+-<extratrees:fence.gates.brazilwood:*>
+-<extratrees:fence.gates.fireproof.brazilwood:*>
+-<extratrees:fence.gates.logwood:*>
+-<extratrees:fence.gates.fireproof.logwood:*>
+-<extratrees:fence.gates.iroko:*>
+-<extratrees:fence.gates.fireproof.iroko:*>
+-<extratrees:fence.gates.locust:*>
+-<extratrees:fence.gates.fireproof.locust:*>
+-<extratrees:fence.gates.eucalyptus:*>
+-<extratrees:fence.gates.fireproof.eucalyptus:*>
+-<extratrees:fence.gates.purpleheart:*>
+-<extratrees:fence.gates.fireproof.purpleheart:*>
+-<extratrees:fence.gates.ash:*>
+-<extratrees:fence.gates.fireproof.ash:*>
+-<extratrees:fence.gates.holly:*>
+-<extratrees:fence.gates.fireproof.holly:*>
+-<extratrees:fence.gates.olive:*>
+-<extratrees:fence.gates.fireproof.olive:*>
+-<extratrees:fence.gates.sweetgum:*>
+-<extratrees:fence.gates.fireproof.sweetgum:*>
+-<extratrees:fence.gates.rosewood:*>
+-<extratrees:fence.gates.fireproof.rosewood:*>
+-<extratrees:fence.gates.gingko:*>
+-<extratrees:fence.gates.fireproof.gingko:*>
+-<extratrees:fence.gates.pinkivory:*>
+-<extratrees:fence.gates.fireproof.pinkivory:*>
+-<extratrees:fence.gates.banana:*>
+-<extratrees:fence.gates.fireproof.banana:*>
+-<biomesoplenty:sacred_oak_fence_gate>
+-<biomesoplenty:cherry_fence_gate>
+-<biomesoplenty:umbran_fence_gate>
+-<biomesoplenty:fir_fence_gate>
+-<biomesoplenty:ethereal_fence_gate>
+-<biomesoplenty:magic_fence_gate>
+-<biomesoplenty:mangrove_fence_gate>
+-<biomesoplenty:palm_fence_gate>
+-<biomesoplenty:redwood_fence_gate>
+-<biomesoplenty:willow_fence_gate>
+-<biomesoplenty:pine_fence_gate>
+-<biomesoplenty:hellbark_fence_gate>
+-<biomesoplenty:jacaranda_fence_gate>
+-<biomesoplenty:mahogany_fence_gate>
+-<biomesoplenty:ebony_fence_gate>
+-<biomesoplenty:eucalyptus_fence_gate>
+Ore entries for <ore:doorWood> :
+-<minecraft:acacia_door>
+-<minecraft:birch_door>
+-<minecraft:dark_oak_door>
+-<minecraft:wooden_door>
+-<minecraft:jungle_door>
+-<minecraft:spruce_door>
+-<forestry:doors.larch:*>
+-<forestry:doors.teak:*>
+-<forestry:doors.acacia:*>
+-<forestry:doors.lime:*>
+-<forestry:doors.chestnut:*>
+-<forestry:doors.wenge:*>
+-<forestry:doors.baobab:*>
+-<forestry:doors.sequoia:*>
+-<forestry:doors.kapok:*>
+-<forestry:doors.ebony:*>
+-<forestry:doors.mahogany:*>
+-<forestry:doors.balsa:*>
+-<forestry:doors.willow:*>
+-<forestry:doors.walnut:*>
+-<forestry:doors.greenheart:*>
+-<forestry:doors.cherry:*>
+-<forestry:doors.mahoe:*>
+-<forestry:doors.poplar:*>
+-<forestry:doors.palm:*>
+-<forestry:doors.papaya:*>
+-<forestry:doors.pine:*>
+-<forestry:doors.plum:*>
+-<forestry:doors.maple:*>
+-<forestry:doors.citrus:*>
+-<forestry:doors.giganteum:*>
+-<forestry:doors.ipe:*>
+-<forestry:doors.padauk:*>
+-<forestry:doors.cocobolo:*>
+-<forestry:doors.zebrawood:*>
+-<extratrees:doors.apple:*>
+-<extratrees:doors.fig:*>
+-<extratrees:doors.butternut:*>
+-<extratrees:doors.whitebeam:*>
+-<extratrees:doors.rowan:*>
+-<extratrees:doors.hemlock:*>
+-<extratrees:doors.ash:*>
+-<extratrees:doors.alder:*>
+-<extratrees:doors.beech:*>
+-<extratrees:doors.hawthorn:*>
+-<extratrees:doors.banana:*>
+-<extratrees:doors.yew:*>
+-<extratrees:doors.cypress:*>
+-<extratrees:doors.fir:*>
+-<extratrees:doors.hazel:*>
+-<extratrees:doors.hickory:*>
+-<extratrees:doors.elm:*>
+-<extratrees:doors.elder:*>
+-<extratrees:doors.holly:*>
+-<extratrees:doors.hornbeam:*>
+-<extratrees:doors.cedar:*>
+-<extratrees:doors.olive:*>
+-<extratrees:doors.sweetgum:*>
+-<extratrees:doors.locust:*>
+-<extratrees:doors.pear:*>
+-<extratrees:doors.maclura:*>
+-<extratrees:doors.brazilwood:*>
+-<extratrees:doors.logwood:*>
+-<extratrees:doors.rosewood:*>
+-<extratrees:doors.purpleheart:*>
+-<extratrees:doors.iroko:*>
+-<extratrees:doors.gingko:*>
+-<extratrees:doors.eucalyptus:*>
+-<extratrees:doors.box:*>
+-<extratrees:doors.syzgium:*>
+-<extratrees:doors.pinkivory:*>
+Ore entries for <ore:stickWood> :
+-<minecraft:stick>
+-<biomesoplenty:bamboo>
+-<biomesoplenty:plant_1:5>
+Ore entries for <ore:treeSapling> :
+-<minecraft:sapling:*>
+-<ic2:sapling:*>
+-<forestry:sapling:*>
+-<forestry:sapling_ge:*>
+-<biomesoplenty:sapling_0>
+-<biomesoplenty:sapling_0:1>
+-<biomesoplenty:sapling_0:2>
+-<biomesoplenty:sapling_0:3>
+-<biomesoplenty:sapling_0:4>
+-<biomesoplenty:sapling_0:5>
+-<biomesoplenty:sapling_0:6>
+-<biomesoplenty:sapling_0:7>
+-<biomesoplenty:sapling_1>
+-<biomesoplenty:sapling_1:1>
+-<biomesoplenty:sapling_1:2>
+-<biomesoplenty:sapling_1:3>
+-<biomesoplenty:sapling_1:4>
+-<biomesoplenty:sapling_1:5>
+-<biomesoplenty:sapling_1:6>
+-<biomesoplenty:sapling_1:7>
+-<biomesoplenty:sapling_2>
+-<biomesoplenty:sapling_2:1>
+-<biomesoplenty:sapling_2:2>
+-<biomesoplenty:sapling_2:3>
+-<biomesoplenty:sapling_2:4>
+-<biomesoplenty:sapling_2:5>
+-<biomesoplenty:sapling_2:6>
+-<biomesoplenty:sapling_2:7>
+Ore entries for <ore:treeLeaves> :
+-<minecraft:leaves:*>
+-<minecraft:leaves2:*>
+-<ic2:leaves:*>
+-<forestry:leaves:*>
+-<forestry:leaves.default.0:*>
+-<forestry:leaves.default.1:*>
+-<forestry:leaves.default.2:*>
+-<forestry:leaves.default.3:*>
+-<forestry:leaves.default.4:*>
+-<forestry:leaves.default.5:*>
+-<forestry:leaves.default.6:*>
+-<forestry:leaves.default.7:*>
+-<forestry:leaves.default.8:*>
+-<forestry:leaves.default.fruit.0:*>
+-<forestry:leaves.default.fruit.1:*>
+-<forestry:leaves.decorative.0:*>
+-<forestry:leaves.decorative.1:*>
+-<forestry:leaves.decorative.2:*>
+-<extratrees:leaves.default.0:*>
+-<extratrees:leaves.default.1:*>
+-<extratrees:leaves.default.2:*>
+-<extratrees:leaves.default.3:*>
+-<extratrees:leaves.default.4:*>
+-<extratrees:leaves.default.5:*>
+-<extratrees:leaves.default.6:*>
+-<extratrees:leaves.default.7:*>
+-<extratrees:leaves.default.8:*>
+-<extratrees:leaves.default.9:*>
+-<extratrees:leaves.default.10:*>
+-<extratrees:leaves.default.11:*>
+-<extratrees:leaves.default.12:*>
+-<extratrees:leaves.default.13:*>
+-<extratrees:leaves.default.14:*>
+-<extratrees:leaves.default.15:*>
+-<extratrees:leaves.default.16:*>
+-<extratrees:leaves.default.17:*>
+-<extratrees:leaves.default.18:*>
+-<extratrees:leaves.default.19:*>
+-<extratrees:leaves.default.20:*>
+-<extratrees:leaves.default.21:*>
+-<extratrees:leaves.default.22:*>
+-<extratrees:leaves.default.23:*>
+-<extratrees:leaves.default.24:*>
+-<extratrees:leaves.default.fruit.0:*>
+-<extratrees:leaves.default.fruit.1:*>
+-<extratrees:leaves.default.fruit.2:*>
+-<extratrees:leaves.default.fruit.3:*>
+-<extratrees:leaves.default.fruit.4:*>
+-<extratrees:leaves.default.fruit.5:*>
+-<extratrees:leaves.default.fruit.6:*>
+-<extratrees:leaves.default.fruit.7:*>
+-<extratrees:leaves.default.fruit.8:*>
+-<extratrees:leaves.default.fruit.9:*>
+-<extratrees:leaves.default.fruit.10:*>
+-<extratrees:leaves.default.fruit.11:*>
+-<extratrees:leaves.default.fruit.12:*>
+-<extratrees:leaves.default.fruit.13:*>
+-<extratrees:leaves.default.fruit.14:*>
+-<extratrees:leaves.decorative.0:*>
+-<extratrees:leaves.decorative.1:*>
+-<extratrees:leaves.decorative.2:*>
+-<extratrees:leaves.decorative.3:*>
+-<extratrees:leaves.decorative.4:*>
+-<extratrees:leaves.decorative.5:*>
+-<extratrees:leaves.decorative.6:*>
+-<biomesoplenty:leaves_0:8>
+-<biomesoplenty:leaves_0:9>
+-<biomesoplenty:leaves_0:10>
+-<biomesoplenty:leaves_0:11>
+-<biomesoplenty:leaves_1:8>
+-<biomesoplenty:leaves_1:9>
+-<biomesoplenty:leaves_1:10>
+-<biomesoplenty:leaves_1:11>
+-<biomesoplenty:leaves_2:8>
+-<biomesoplenty:leaves_2:9>
+-<biomesoplenty:leaves_2:10>
+-<biomesoplenty:leaves_2:11>
+-<biomesoplenty:leaves_3:8>
+-<biomesoplenty:leaves_3:9>
+-<biomesoplenty:leaves_3:10>
+-<biomesoplenty:leaves_3:11>
+-<biomesoplenty:leaves_4:8>
+-<biomesoplenty:leaves_4:9>
+-<biomesoplenty:leaves_4:10>
+-<biomesoplenty:leaves_4:11>
+-<biomesoplenty:leaves_5:8>
+-<biomesoplenty:leaves_5:9>
+-<biomesoplenty:leaves_5:10>
+-<biomesoplenty:leaves_5:11>
+-<biomesoplenty:leaves_6:8>
+-<biomesoplenty:leaves_6:9>
+Ore entries for <ore:vine> :
+-<minecraft:vine>
+Ore entries for <ore:oreGold> :
+-<minecraft:gold_ore>
+Ore entries for <ore:oreIron> :
+-<minecraft:iron_ore>
+Ore entries for <ore:oreLapis> :
+-<minecraft:lapis_ore>
+Ore entries for <ore:oreDiamond> :
+-<minecraft:diamond_ore>
+Ore entries for <ore:oreRedstone> :
+-<minecraft:redstone_ore>
+Ore entries for <ore:oreEmerald> :
+-<minecraft:emerald_ore>
+Ore entries for <ore:oreQuartz> :
+-<minecraft:quartz_ore>
+Ore entries for <ore:oreCoal> :
+-<minecraft:coal_ore>
+Ore entries for <ore:ingotIron> :
+-<minecraft:iron_ingot>
+Ore entries for <ore:ingotGold> :
+-<minecraft:gold_ingot>
+Ore entries for <ore:ingotBrick> :
+-<minecraft:brick>
+Ore entries for <ore:ingotBrickNether> :
+-<minecraft:netherbrick>
+Ore entries for <ore:nuggetGold> :
+-<minecraft:gold_nugget>
+Ore entries for <ore:nuggetIron> :
+-<minecraft:iron_nugget>
+Ore entries for <ore:gemDiamond> :
+-<minecraft:diamond>
+-<ic2:crafting:19>
+Ore entries for <ore:gemEmerald> :
+-<minecraft:emerald>
+Ore entries for <ore:gemQuartz> :
+-<minecraft:quartz>
+Ore entries for <ore:gemPrismarine> :
+-<minecraft:prismarine_shard>
+Ore entries for <ore:dustPrismarine> :
+-<minecraft:prismarine_crystals>
+Ore entries for <ore:dustRedstone> :
+-<minecraft:redstone>
+Ore entries for <ore:dustGlowstone> :
+-<minecraft:glowstone_dust>
+Ore entries for <ore:gemLapis> :
+-<minecraft:dye:4>
+Ore entries for <ore:blockGold> :
+-<minecraft:gold_block>
+Ore entries for <ore:blockIron> :
+-<minecraft:iron_block>
+Ore entries for <ore:blockLapis> :
+-<minecraft:lapis_block>
+Ore entries for <ore:blockDiamond> :
+-<minecraft:diamond_block>
+Ore entries for <ore:blockRedstone> :
+-<minecraft:redstone_block>
+Ore entries for <ore:blockEmerald> :
+-<minecraft:emerald_block>
+Ore entries for <ore:blockQuartz> :
+-<minecraft:quartz_block>
+Ore entries for <ore:blockCoal> :
+-<minecraft:coal_block>
+Ore entries for <ore:cropWheat> :
+-<minecraft:wheat>
+Ore entries for <ore:cropPotato> :
+-<minecraft:potato>
+Ore entries for <ore:cropCarrot> :
+-<minecraft:carrot>
+Ore entries for <ore:cropNetherWart> :
+-<minecraft:nether_wart>
+Ore entries for <ore:sugarcane> :
+-<minecraft:reeds>
+Ore entries for <ore:blockCactus> :
+-<minecraft:cactus>
+Ore entries for <ore:dye> :
+-<minecraft:dye:*>
+-<thermalfoundation:dye:*>
+Ore entries for <ore:paper> :
+-<minecraft:paper>
+Ore entries for <ore:slimeball> :
+-<minecraft:slime_ball>
+Ore entries for <ore:enderpearl> :
+-<minecraft:ender_pearl>
+Ore entries for <ore:bone> :
+-<minecraft:bone>
+Ore entries for <ore:gunpowder> :
+-<minecraft:gunpowder>
+Ore entries for <ore:string> :
+-<minecraft:string>
+Ore entries for <ore:netherStar> :
+-<minecraft:nether_star>
+Ore entries for <ore:leather> :
+-<minecraft:leather>
+Ore entries for <ore:feather> :
+-<minecraft:feather>
+Ore entries for <ore:egg> :
+-<minecraft:egg>
+Ore entries for <ore:record> :
+-<minecraft:record_13>
+-<minecraft:record_cat>
+-<minecraft:record_blocks>
+-<minecraft:record_chirp>
+-<minecraft:record_far>
+-<minecraft:record_mall>
+-<minecraft:record_mellohi>
+-<minecraft:record_stal>
+-<minecraft:record_strad>
+-<minecraft:record_ward>
+-<minecraft:record_11>
+-<minecraft:record_wait>
+-<biomesoplenty:record_wanderer>
+Ore entries for <ore:dirt> :
+-<minecraft:dirt>
+-<biomesoplenty:dirt>
+Ore entries for <ore:grass> :
+-<minecraft:grass>
+-<biomesoplenty:grass>
+Ore entries for <ore:stone> :
+-<minecraft:stone>
+Ore entries for <ore:cobblestone> :
+-<minecraft:cobblestone>
+Ore entries for <ore:gravel> :
+-<minecraft:gravel>
+Ore entries for <ore:sand> :
+-<minecraft:sand:*>
+-<biomesoplenty:white_sand>
+Ore entries for <ore:sandstone> :
+-<minecraft:sandstone:*>
+-<minecraft:red_sandstone:*>
+-<biomesoplenty:white_sandstone>
+Ore entries for <ore:netherrack> :
+-<minecraft:netherrack>
+Ore entries for <ore:obsidian> :
+-<minecraft:obsidian>
+Ore entries for <ore:glowstone> :
+-<minecraft:glowstone>
+Ore entries for <ore:endstone> :
+-<minecraft:end_stone>
+Ore entries for <ore:torch> :
+-<minecraft:torch>
+Ore entries for <ore:workbench> :
+-<minecraft:crafting_table>
+Ore entries for <ore:blockSlime> :
+-<minecraft:slime>
+Ore entries for <ore:blockPrismarine> :
+-<minecraft:prismarine>
+Ore entries for <ore:blockPrismarineBrick> :
+-<minecraft:prismarine:1>
+Ore entries for <ore:blockPrismarineDark> :
+-<minecraft:prismarine:2>
+Ore entries for <ore:stoneGranite> :
+-<minecraft:stone:1>
+Ore entries for <ore:stoneGranitePolished> :
+-<minecraft:stone:2>
+Ore entries for <ore:stoneDiorite> :
+-<minecraft:stone:3>
+Ore entries for <ore:stoneDioritePolished> :
+-<minecraft:stone:4>
+Ore entries for <ore:stoneAndesite> :
+-<minecraft:stone:5>
+Ore entries for <ore:stoneAndesitePolished> :
+-<minecraft:stone:6>
+Ore entries for <ore:blockGlassColorless> :
+-<minecraft:glass>
+Ore entries for <ore:blockGlass> :
+-<minecraft:glass>
+-<minecraft:stained_glass:*>
+-<botany:stained>
+Ore entries for <ore:paneGlassColorless> :
+-<minecraft:glass_pane>
+Ore entries for <ore:paneGlass> :
+-<minecraft:glass_pane>
+-<minecraft:stained_glass_pane:*>
+Ore entries for <ore:wool> :
+-<minecraft:wool:*>
+Ore entries for <ore:chest> :
+-<minecraft:chest>
+-<minecraft:ender_chest>
+-<minecraft:trapped_chest>
+Ore entries for <ore:chestWood> :
+-<minecraft:chest>
+Ore entries for <ore:chestEnder> :
+-<minecraft:ender_chest>
+Ore entries for <ore:chestTrapped> :
+-<minecraft:trapped_chest>
+Ore entries for <ore:dyeBlack> :
+-<minecraft:dye>
+-<extrabees:misc:24>
+-<biomesoplenty:black_dye>
+-<thermalfoundation:dye>
+Ore entries for <ore:woolBlack> :
+-<minecraft:wool:15>
+Ore entries for <ore:blockGlassBlack> :
+-<minecraft:stained_glass:15>
+Ore entries for <ore:paneGlassBlack> :
+-<minecraft:stained_glass_pane:15>
+Ore entries for <ore:dyeRed> :
+-<minecraft:dye:1>
+-<extrabees:misc:19>
+-<thermalfoundation:dye:1>
+Ore entries for <ore:woolRed> :
+-<minecraft:wool:14>
+Ore entries for <ore:blockGlassRed> :
+-<minecraft:stained_glass:14>
+Ore entries for <ore:paneGlassRed> :
+-<minecraft:stained_glass_pane:14>
+Ore entries for <ore:dyeGreen> :
+-<minecraft:dye:2>
+-<extrabees:misc:22>
+-<biomesoplenty:green_dye>
+-<thermalfoundation:dye:2>
+Ore entries for <ore:woolGreen> :
+-<minecraft:wool:13>
+Ore entries for <ore:blockGlassGreen> :
+-<minecraft:stained_glass:13>
+Ore entries for <ore:paneGlassGreen> :
+-<minecraft:stained_glass_pane:13>
+Ore entries for <ore:dyeBrown> :
+-<minecraft:dye:3>
+-<extrabees:misc:25>
+-<biomesoplenty:brown_dye>
+-<thermalfoundation:dye:3>
+Ore entries for <ore:woolBrown> :
+-<minecraft:wool:12>
+Ore entries for <ore:blockGlassBrown> :
+-<minecraft:stained_glass:12>
+Ore entries for <ore:paneGlassBrown> :
+-<minecraft:stained_glass_pane:12>
+Ore entries for <ore:dyeBlue> :
+-<minecraft:dye:4>
+-<extrabees:misc:21>
+-<biomesoplenty:blue_dye>
+-<thermalfoundation:dye:4>
+Ore entries for <ore:woolBlue> :
+-<minecraft:wool:11>
+Ore entries for <ore:blockGlassBlue> :
+-<minecraft:stained_glass:11>
+Ore entries for <ore:paneGlassBlue> :
+-<minecraft:stained_glass_pane:11>
+Ore entries for <ore:dyePurple> :
+-<minecraft:dye:5>
+-<thermalfoundation:dye:5>
+Ore entries for <ore:woolPurple> :
+-<minecraft:wool:10>
+Ore entries for <ore:blockGlassPurple> :
+-<minecraft:stained_glass:10>
+Ore entries for <ore:paneGlassPurple> :
+-<minecraft:stained_glass_pane:10>
+Ore entries for <ore:dyeCyan> :
+-<minecraft:dye:6>
+-<thermalfoundation:dye:6>
+Ore entries for <ore:woolCyan> :
+-<minecraft:wool:9>
+Ore entries for <ore:blockGlassCyan> :
+-<minecraft:stained_glass:9>
+Ore entries for <ore:paneGlassCyan> :
+-<minecraft:stained_glass_pane:9>
+Ore entries for <ore:dyeLightGray> :
+-<minecraft:dye:7>
+-<thermalfoundation:dye:7>
+Ore entries for <ore:woolLightGray> :
+-<minecraft:wool:8>
+Ore entries for <ore:blockGlassLightGray> :
+-<minecraft:stained_glass:8>
+Ore entries for <ore:paneGlassLightGray> :
+-<minecraft:stained_glass_pane:8>
+Ore entries for <ore:dyeGray> :
+-<minecraft:dye:8>
+-<thermalfoundation:dye:8>
+Ore entries for <ore:woolGray> :
+-<minecraft:wool:7>
+Ore entries for <ore:blockGlassGray> :
+-<minecraft:stained_glass:7>
+Ore entries for <ore:paneGlassGray> :
+-<minecraft:stained_glass_pane:7>
+Ore entries for <ore:dyePink> :
+-<minecraft:dye:9>
+-<thermalfoundation:dye:9>
+Ore entries for <ore:woolPink> :
+-<minecraft:wool:6>
+Ore entries for <ore:blockGlassPink> :
+-<minecraft:stained_glass:6>
+Ore entries for <ore:paneGlassPink> :
+-<minecraft:stained_glass_pane:6>
+Ore entries for <ore:dyeLime> :
+-<minecraft:dye:10>
+-<thermalfoundation:dye:10>
+Ore entries for <ore:woolLime> :
+-<minecraft:wool:5>
+Ore entries for <ore:blockGlassLime> :
+-<minecraft:stained_glass:5>
+Ore entries for <ore:paneGlassLime> :
+-<minecraft:stained_glass_pane:5>
+Ore entries for <ore:dyeYellow> :
+-<minecraft:dye:11>
+-<extrabees:misc:20>
+-<thermalfoundation:dye:11>
+Ore entries for <ore:woolYellow> :
+-<minecraft:wool:4>
+Ore entries for <ore:blockGlassYellow> :
+-<minecraft:stained_glass:4>
+Ore entries for <ore:paneGlassYellow> :
+-<minecraft:stained_glass_pane:4>
+Ore entries for <ore:dyeLightBlue> :
+-<minecraft:dye:12>
+-<thermalfoundation:dye:12>
+Ore entries for <ore:woolLightBlue> :
+-<minecraft:wool:3>
+Ore entries for <ore:blockGlassLightBlue> :
+-<minecraft:stained_glass:3>
+Ore entries for <ore:paneGlassLightBlue> :
+-<minecraft:stained_glass_pane:3>
+Ore entries for <ore:dyeMagenta> :
+-<minecraft:dye:13>
+-<thermalfoundation:dye:13>
+Ore entries for <ore:woolMagenta> :
+-<minecraft:wool:2>
+Ore entries for <ore:blockGlassMagenta> :
+-<minecraft:stained_glass:2>
+Ore entries for <ore:paneGlassMagenta> :
+-<minecraft:stained_glass_pane:2>
+Ore entries for <ore:dyeOrange> :
+-<minecraft:dye:14>
+-<thermalfoundation:dye:14>
+Ore entries for <ore:woolOrange> :
+-<minecraft:wool:1>
+Ore entries for <ore:blockGlassOrange> :
+-<minecraft:stained_glass:1>
+Ore entries for <ore:paneGlassOrange> :
+-<minecraft:stained_glass_pane:1>
+Ore entries for <ore:dyeWhite> :
+-<minecraft:dye:15>
+-<extrabees:misc:23>
+-<biomesoplenty:white_dye>
+-<thermalfoundation:dye:15>
+Ore entries for <ore:woolWhite> :
+-<minecraft:wool>
+Ore entries for <ore:blockGlassWhite> :
+-<minecraft:stained_glass>
+Ore entries for <ore:paneGlassWhite> :
+-<minecraft:stained_glass_pane>
+Ore entries for <ore:woodRubber> :
+-<ic2:rubber_wood>
+Ore entries for <ore:dustLapis> :
+-<ic2:dust:9>
+Ore entries for <ore:crushedIron> :
+-<ic2:crushed:2>
+Ore entries for <ore:crushedPurifiedIron> :
+-<ic2:purified:2>
+Ore entries for <ore:dustIron> :
+-<ic2:dust:8>
+-<thermalfoundation:material>
+-<appliedenergistics2:material:49>
+-<morebees:dustiron>
+Ore entries for <ore:blockLead> :
+-<ic2:resource:7>
+-<thermalfoundation:storage:3>
+Ore entries for <ore:blockBronze> :
+-<ic2:resource:5>
+-<thermalfoundation:storage_alloy:3>
+-<forestry:resource_storage:3>
+Ore entries for <ore:blockTin> :
+-<ic2:resource:9>
+-<thermalfoundation:storage:1>
+-<forestry:resource_storage:2>
+Ore entries for <ore:blockSteel> :
+-<ic2:resource:8>
+-<thermalfoundation:storage_alloy>
+Ore entries for <ore:blockCopper> :
+-<ic2:resource:6>
+-<thermalfoundation:storage>
+-<forestry:resource_storage:1>
+Ore entries for <ore:plateObsidian> :
+-<ic2:plate:6>
+Ore entries for <ore:ingotTin> :
+-<ic2:ingot:6>
+-<thermalfoundation:material:129>
+-<forestry:ingot_tin>
+Ore entries for <ore:plateCopper> :
+-<ic2:plate:1>
+-<thermalfoundation:material:320>
+Ore entries for <ore:plateTin> :
+-<ic2:plate:8>
+-<thermalfoundation:material:321>
+Ore entries for <ore:ingotSilver> :
+-<ic2:ingot:4>
+-<thermalfoundation:material:130>
+Ore entries for <ore:ingotSteel> :
+-<ic2:ingot:5>
+-<thermalfoundation:material:160>
+Ore entries for <ore:plateIron> :
+-<ic2:plate:3>
+-<thermalfoundation:material:32>
+Ore entries for <ore:plateGold> :
+-<ic2:plate:2>
+-<thermalfoundation:material:33>
+Ore entries for <ore:ingotCopper> :
+-<ic2:ingot:2>
+-<thermalfoundation:material:128>
+-<forestry:ingot_copper>
+Ore entries for <ore:plateLead> :
+-<ic2:plate:5>
+-<thermalfoundation:material:323>
+Ore entries for <ore:plateSteel> :
+-<ic2:plate:7>
+-<thermalfoundation:material:352>
+Ore entries for <ore:dustObsidian> :
+-<ic2:dust:12>
+-<thermalfoundation:material:770>
+Ore entries for <ore:ingotLead> :
+-<ic2:ingot:3>
+-<thermalfoundation:material:131>
+Ore entries for <ore:plateBronze> :
+-<ic2:plate>
+-<thermalfoundation:material:355>
+Ore entries for <ore:ingotBronze> :
+-<ic2:ingot:1>
+-<thermalfoundation:material:163>
+-<forestry:ingot_bronze>
+Ore entries for <ore:plateLapis> :
+-<ic2:plate:4>
+Ore entries for <ore:nuggetIridium> :
+-<ic2:misc_resource:2>
+-<thermalfoundation:material:199>
+Ore entries for <ore:oreTin> :
+-<ic2:resource:3>
+-<thermalfoundation:ore:1>
+-<forestry:resources:2>
+Ore entries for <ore:oreCopper> :
+-<ic2:resource:1>
+-<thermalfoundation:ore>
+-<forestry:resources:1>
+Ore entries for <ore:oreSilver> :
+-<thermalfoundation:ore:2>
+Ore entries for <ore:oreLead> :
+-<ic2:resource:2>
+-<thermalfoundation:ore:3>
+Ore entries for <ore:oreUranium> :
+-<ic2:resource:4>
+Ore entries for <ore:gemIridium> :
+-<ic2:misc_resource:1>
+Ore entries for <ore:plateDenseBronze> :
+-<ic2:plate:9>
+Ore entries for <ore:plateDenseCopper> :
+-<ic2:plate:10>
+Ore entries for <ore:plateDenseGold> :
+-<ic2:plate:11>
+Ore entries for <ore:plateDenseIron> :
+-<ic2:plate:12>
+Ore entries for <ore:plateDenseLapis> :
+-<ic2:plate:13>
+Ore entries for <ore:plateDenseLead> :
+-<ic2:plate:14>
+Ore entries for <ore:plateDenseObsidian> :
+-<ic2:plate:15>
+Ore entries for <ore:plateDenseTin> :
+-<ic2:plate:17>
+Ore entries for <ore:crushedSilver> :
+-<ic2:crushed:4>
+Ore entries for <ore:crushedTin> :
+-<ic2:crushed:5>
+Ore entries for <ore:crushedUranium> :
+-<ic2:crushed:6>
+Ore entries for <ore:crushedCopper> :
+-<ic2:crushed>
+Ore entries for <ore:crushedLead> :
+-<ic2:crushed:3>
+Ore entries for <ore:crushedGold> :
+-<ic2:crushed:1>
+Ore entries for <ore:dustClay> :
+-<ic2:dust:1>
+Ore entries for <ore:crushedPurifiedGold> :
+-<ic2:purified:1>
+Ore entries for <ore:crushedPurifiedUranium> :
+-<ic2:purified:6>
+Ore entries for <ore:crushedPurifiedTin> :
+-<ic2:purified:5>
+Ore entries for <ore:itemSlag> :
+-<ic2:misc_resource:5>
+-<thermalfoundation:material:864>
+Ore entries for <ore:crushedPurifiedLead> :
+-<ic2:purified:3>
+Ore entries for <ore:crushedPurifiedSilver> :
+-<ic2:purified:4>
+Ore entries for <ore:crushedPurifiedCopper> :
+-<ic2:purified>
+Ore entries for <ore:itemRubber> :
+-<ic2:crafting>
+Ore entries for <ore:materialRubber> :
+-<ic2:crafting>
+Ore entries for <ore:materialResin> :
+-<ic2:misc_resource:4>
+Ore entries for <ore:itemResin> :
+-<ic2:misc_resource:4>
+Ore entries for <ore:dustStone> :
+-<ic2:dust:15>
+Ore entries for <ore:dustBronze> :
+-<ic2:dust>
+-<thermalfoundation:material:99>
+Ore entries for <ore:dustCoal> :
+-<ic2:dust:2>
+-<thermalfoundation:material:768>
+Ore entries for <ore:dustCopper> :
+-<ic2:dust:4>
+-<thermalfoundation:material:64>
+-<morebees:dustcopper>
+Ore entries for <ore:dustGold> :
+-<ic2:dust:7>
+-<thermalfoundation:material:1>
+-<appliedenergistics2:material:51>
+-<morebees:dustgold>
+Ore entries for <ore:dustSilver> :
+-<ic2:dust:14>
+-<thermalfoundation:material:66>
+-<morebees:dustsilver>
+Ore entries for <ore:dustTin> :
+-<ic2:dust:17>
+-<thermalfoundation:material:65>
+-<morebees:dusttin>
+Ore entries for <ore:dustLead> :
+-<ic2:dust:10>
+-<thermalfoundation:material:67>
+-<morebees:dustlead>
+Ore entries for <ore:dustSulfur> :
+-<ic2:dust:16>
+-<thermalfoundation:material:771>
+Ore entries for <ore:dustLithium> :
+-<ic2:dust:11>
+Ore entries for <ore:dustDiamond> :
+-<ic2:dust:5>
+Ore entries for <ore:dustSiliconDioxide> :
+-<ic2:dust:13>
+Ore entries for <ore:dustHydratedCoal> :
+-<ic2:dust:3>
+Ore entries for <ore:dustAshes> :
+-<ic2:misc_resource>
+Ore entries for <ore:dustTinyCopper> :
+-<ic2:dust:19>
+Ore entries for <ore:dustTinyGold> :
+-<ic2:dust:20>
+Ore entries for <ore:dustTinyIron> :
+-<ic2:dust:21>
+Ore entries for <ore:dustTinySilver> :
+-<ic2:dust:26>
+Ore entries for <ore:dustTinyTin> :
+-<ic2:dust:28>
+Ore entries for <ore:dustTinyLead> :
+-<ic2:dust:23>
+Ore entries for <ore:dustTinySulfur> :
+-<ic2:dust:27>
+Ore entries for <ore:dustTinyLithium> :
+-<ic2:dust:24>
+Ore entries for <ore:dustTinyBronze> :
+-<ic2:dust:18>
+Ore entries for <ore:dustTinyLapis> :
+-<ic2:dust:22>
+Ore entries for <ore:dustTinyObsidian> :
+-<ic2:dust:25>
+Ore entries for <ore:ingotRefinedIron> :
+-<ic2:ingot:7>
+Ore entries for <ore:ingotUranium> :
+-<ic2:ingot:8>
+-<advanced_solar_panels:crafting:11>
+Ore entries for <ore:plateDenseSteel> :
+-<ic2:plate:16>
+Ore entries for <ore:blockUranium> :
+-<ic2:resource:10>
+Ore entries for <ore:blockSilver> :
+-<ic2:resource:15>
+-<thermalfoundation:storage:2>
+Ore entries for <ore:circuitBasic> :
+-<ic2:crafting:1>
+Ore entries for <ore:circuitAdvanced> :
+-<ic2:crafting:2>
+Ore entries for <ore:craftingToolForgeHammer> :
+-<ic2:forge_hammer:*>
+Ore entries for <ore:craftingToolWireCutter> :
+-<ic2:cutter:*>
+Ore entries for <ore:fuelCoke> :
+-<ic2:coke>
+-<thermalfoundation:material:802>
+Ore entries for <ore:itemUUMatter> :
+-<ic2:misc_resource:3>
+Ore entries for <ore:materialUUMatter> :
+-<ic2:misc_resource:3>
+Ore entries for <ore:itemFertilizer> :
+-<ic2:crop_res:2>
+Ore entries for <ore:plateCarbon> :
+-<ic2:crafting:15>
+Ore entries for <ore:plateAdvancedAlloy> :
+-<ic2:crafting:3>
+Ore entries for <ore:plateadvancedAlloy> :
+-<ic2:crafting:3>
+Ore entries for <ore:itemScrap> :
+-<ic2:crafting:23>
+Ore entries for <ore:materialScrap> :
+-<ic2:crafting:23>
+Ore entries for <ore:itemScrapBox> :
+-<ic2:crafting:24>
+Ore entries for <ore:itemCarbonFibre> :
+-<ic2:crafting:13>
+Ore entries for <ore:itemCarbonFiber> :
+-<ic2:crafting:13>
+Ore entries for <ore:itemCarbonMesh> :
+-<ic2:crafting:14>
+Ore entries for <ore:itemRawCarbonMesh> :
+-<ic2:crafting:14>
+Ore entries for <ore:machineBlock> :
+-<ic2:resource:12>
+Ore entries for <ore:machineBlockCasing> :
+-<ic2:resource:12>
+Ore entries for <ore:machineBlockAdvanced> :
+-<ic2:resource:12>
+Ore entries for <ore:machineBlockAdvancedCasing> :
+-<ic2:resource:12>
+Ore entries for <ore:reBattery> :
+-<ic2:re_battery:*>
+Ore entries for <ore:energyCrystal> :
+-<ic2:energy_crystal:*>
+Ore entries for <ore:lapotronCrystal> :
+-<ic2:lapotron_crystal:*>
+Ore entries for <ore:ic2Generator> :
+-<ic2:te:3>
+Ore entries for <ore:ic2SolarPanel> :
+-<ic2:te:8>
+Ore entries for <ore:ic2Macerator> :
+-<ic2:te:47>
+Ore entries for <ore:ic2Extractor> :
+-<ic2:te:45>
+Ore entries for <ore:ic2Windmill> :
+-<ic2:te:11>
+Ore entries for <ore:ic2Watermill> :
+-<ic2:te:10>
+Ore entries for <ore:itemTinCable> :
+-<ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte})
+Ore entries for <ore:itemInsulatedTinCable> :
+-<ic2:cable:4>.withTag({type: 4 as byte, insulation: 1 as byte})
+Ore entries for <ore:itemCopperCable> :
+-<ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte})
+Ore entries for <ore:itemInsulatedCopperCable> :
+-<ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte})
+Ore entries for <ore:itemGoldCable> :
+-<ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte})
+Ore entries for <ore:itemInsulatedGoldCable> :
+-<ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte})
+Ore entries for <ore:itemIronCable> :
+-<ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte})
+Ore entries for <ore:itemInsulatedIronCable> :
+-<ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte})
+Ore entries for <ore:itemInsulatedGlassCable> :
+-<ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte})
+Ore entries for <ore:itemDetectorCable> :
+-<ic2:cable:5>.withTag({type: 5 as byte, insulation: 0 as byte})
+Ore entries for <ore:itemDetectorSplitter> :
+-<ic2:cable:6>.withTag({type: 6 as byte, insulation: 0 as byte})
+Ore entries for <ore:ingotIridium> :
+-<thermalfoundation:material:135>
+-<advanced_solar_panels:crafting:10>
+Ore entries for <ore:craftingSolarPanelHV> :
+-<advanced_solar_panels:machines:4>
+Ore entries for <ore:craftingSunnariumPart> :
+-<advanced_solar_panels:crafting:1>
+Ore entries for <ore:craftingSunnarium> :
+-<advanced_solar_panels:crafting>
+Ore entries for <ore:craftingMTCore> :
+-<advanced_solar_panels:crafting:12>
+Ore entries for <ore:craftingMolecularTransformer> :
+-<advanced_solar_panels:machines>
+Ore entries for <ore:craftingTableWood> :
+-<minecraft:crafting_table>
+Ore entries for <ore:gemApatite> :
+-<forestry:apatite>
+Ore entries for <ore:brickPeat> :
+-<forestry:peat>
+Ore entries for <ore:dustAsh> :
+-<forestry:ash>
+Ore entries for <ore:gearBronze> :
+-<thermalfoundation:material:291>
+-<forestry:gear_bronze>
+Ore entries for <ore:gearCopper> :
+-<thermalfoundation:material:256>
+-<forestry:gear_copper>
+Ore entries for <ore:gearTin> :
+-<thermalfoundation:material:257>
+-<forestry:gear_tin>
+Ore entries for <ore:pulpWood> :
+-<forestry:wood_pulp>
+-<extratrees:misc>
+Ore entries for <ore:itemBeeswax> :
+-<forestry:beeswax>
+Ore entries for <ore:cropCherry> :
+-<forestry:fruits>
+-<extratrees:food:4>
+-<extratrees:food:5>
+-<extratrees:food:6>
+Ore entries for <ore:fruitForestry> :
+-<forestry:fruits>
+-<forestry:fruits:1>
+-<forestry:fruits:2>
+-<forestry:fruits:3>
+-<forestry:fruits:4>
+-<forestry:fruits:5>
+-<forestry:fruits:6>
+Ore entries for <ore:cropWalnut> :
+-<forestry:fruits:1>
+-<extratrees:food:25>
+Ore entries for <ore:cropChestnut> :
+-<forestry:fruits:2>
+Ore entries for <ore:cropLemon> :
+-<forestry:fruits:3>
+Ore entries for <ore:cropPlum> :
+-<forestry:fruits:4>
+-<extratrees:food:8>
+Ore entries for <ore:cropDate> :
+-<forestry:fruits:5>
+Ore entries for <ore:cropPapaya> :
+-<forestry:fruits:6>
+Ore entries for <ore:oreApatite> :
+-<forestry:resources>
+Ore entries for <ore:blockApatite> :
+-<forestry:resource_storage>
+Ore entries for <ore:trapdoorWood> :
+-<minecraft:trapdoor>
+Ore entries for <ore:emptiedLetter> :
+-<forestry:letters:3>
+-<forestry:letters:19>
+-<forestry:letters:35>
+Ore entries for <ore:blockCharcoal> :
+-<forestry:charcoal>
+-<thermalfoundation:storage_resource>
+Ore entries for <ore:dropHoney> :
+-<forestry:honey_drop>
+Ore entries for <ore:itemPollen> :
+-<forestry:pollen>
+Ore entries for <ore:dropHoneydew> :
+-<forestry:honeydew>
+Ore entries for <ore:dropRoyalJelly> :
+-<forestry:royal_jelly>
+Ore entries for <ore:beeComb> :
+-<forestry:bee_combs:*>
+-<morebees:combrock>
+-<morebees:combdirt>
+-<morebees:combwither>
+-<morebees:combslime>
+-<morebees:combmetallic>
+-<morebees:combcrystal>
+-<extrabees:honey_comb:*>
+Ore entries for <ore:blockWool> :
+-<minecraft:wool:*>
+Ore entries for <ore:pigment> :
+-<botany:pigment>
+Ore entries for <ore:weedkiller> :
+-<botany:misc:7>
+Ore entries for <ore:toolTrowel> :
+-<botany:trowel_wood>
+-<botany:trowel_stone>
+-<botany:trowel_iron>
+-<botany:trowel_gold>
+-<botany:trowel_diamond>
+Ore entries for <ore:binnie_database> :
+-<botany:database>
+-<extrabees:dictionary>
+-<extratrees:databasetree>
+-<extratrees:databaselepi>
+Ore entries for <ore:cropApple> :
+-<extratrees:food>
+-<minecraft:apple>
+Ore entries for <ore:cropCrabapple> :
+-<extratrees:food>
+Ore entries for <ore:listAllfruit> :
+-<extratrees:food>
+-<extratrees:food:1>
+-<extratrees:food:2>
+-<extratrees:food:3>
+-<extratrees:food:4>
+-<extratrees:food:5>
+-<extratrees:food:6>
+-<extratrees:food:7>
+-<extratrees:food:8>
+-<extratrees:food:10>
+-<extratrees:food:11>
+-<extratrees:food:12>
+-<extratrees:food:13>
+-<extratrees:food:14>
+-<extratrees:food:15>
+-<extratrees:food:16>
+-<extratrees:food:17>
+-<extratrees:food:18>
+-<extratrees:food:19>
+-<extratrees:food:20>
+-<extratrees:food:21>
+-<extratrees:food:22>
+-<extratrees:food:23>
+-<extratrees:food:28>
+-<extratrees:food:29>
+-<extratrees:food:30>
+-<extratrees:food:32>
+-<extratrees:food:34>
+-<extratrees:food:38>
+-<extratrees:food:41>
+-<extratrees:food:42>
+-<extratrees:food:43>
+-<extratrees:food:44>
+-<extratrees:food:45>
+-<extratrees:food:46>
+-<extratrees:food:47>
+-<extratrees:food:48>
+-<extratrees:food:49>
+-<extratrees:food:52>
+-<extratrees:food:57>
+-<extratrees:food:58>
+-<biomesoplenty:peach>
+-<biomesoplenty:persimmon>
+-<biomesoplenty:pear>
+Ore entries for <ore:cropOrange> :
+-<extratrees:food:1>
+-<extratrees:food:13>
+-<extratrees:food:18>
+-<extratrees:food:21>
+Ore entries for <ore:listAllcitrus> :
+-<extratrees:food:1>
+-<extratrees:food:3>
+-<extratrees:food:11>
+-<extratrees:food:13>
+-<extratrees:food:14>
+-<extratrees:food:15>
+-<extratrees:food:16>
+-<extratrees:food:17>
+-<extratrees:food:18>
+-<extratrees:food:21>
+-<extratrees:food:38>
+Ore entries for <ore:cropKumquat> :
+-<extratrees:food:2>
+Ore entries for <ore:cropLime> :
+-<extratrees:food:3>
+-<extratrees:food:16>
+-<extratrees:food:17>
+Ore entries for <ore:cropWildCherry> :
+-<extratrees:food:4>
+Ore entries for <ore:cropSourCherry> :
+-<extratrees:food:5>
+Ore entries for <ore:cropBlackCherry> :
+-<extratrees:food:6>
+Ore entries for <ore:cropBlackthorn> :
+-<extratrees:food:7>
+Ore entries for <ore:listAllberry> :
+-<extratrees:food:7>
+-<extratrees:food:34>
+-<extratrees:food:41>
+-<extratrees:food:42>
+-<extratrees:food:43>
+-<extratrees:food:44>
+-<extratrees:food:45>
+-<extratrees:food:46>
+-<extratrees:food:48>
+-<extratrees:food:49>
+Ore entries for <ore:cropCherryPlum> :
+-<extratrees:food:8>
+Ore entries for <ore:cropAlmond> :
+-<extratrees:food:9>
+Ore entries for <ore:listAllnut> :
+-<extratrees:food:9>
+-<extratrees:food:24>
+-<extratrees:food:25>
+-<extratrees:food:26>
+-<extratrees:food:27>
+-<extratrees:food:31>
+-<extratrees:food:33>
+-<extratrees:food:50>
+-<extratrees:food:51>
+-<extratrees:food:59>
+Ore entries for <ore:cropApricot> :
+-<extratrees:food:10>
+Ore entries for <ore:cropGrapefruit> :
+-<extratrees:food:11>
+Ore entries for <ore:cropPeach> :
+-<extratrees:food:12>
+-<extratrees:food:19>
+-<biomesoplenty:peach>
+Ore entries for <ore:cropSatsuma> :
+-<extratrees:food:13>
+Ore entries for <ore:cropBuddhaHand> :
+-<extratrees:food:14>
+Ore entries for <ore:cropCitron> :
+-<extratrees:food:14>
+-<extratrees:food:15>
+Ore entries for <ore:cropFingerLime> :
+-<extratrees:food:16>
+Ore entries for <ore:cropKeyLime> :
+-<extratrees:food:17>
+Ore entries for <ore:cropManderin> :
+-<extratrees:food:18>
+Ore entries for <ore:cropNectarine> :
+-<extratrees:food:19>
+Ore entries for <ore:cropPomelo> :
+-<extratrees:food:20>
+Ore entries for <ore:cropTangerine> :
+-<extratrees:food:21>
+Ore entries for <ore:cropPear> :
+-<extratrees:food:22>
+-<biomesoplenty:pear>
+Ore entries for <ore:cropSandPear> :
+-<extratrees:food:23>
+Ore entries for <ore:cropHazelnut> :
+-<extratrees:food:24>
+Ore entries for <ore:cropButternut> :
+-<extratrees:food:25>
+Ore entries for <ore:cropBeechnut> :
+-<extratrees:food:26>
+Ore entries for <ore:cropPecan> :
+-<extratrees:food:27>
+Ore entries for <ore:cropBanana> :
+-<extratrees:food:28>
+-<extratrees:food:29>
+Ore entries for <ore:cropRedBanana> :
+-<extratrees:food:29>
+Ore entries for <ore:cropPlantain> :
+-<extratrees:food:30>
+Ore entries for <ore:cropBrazilNut> :
+-<extratrees:food:31>
+Ore entries for <ore:cropFig> :
+-<extratrees:food:32>
+Ore entries for <ore:cropAcorn> :
+-<extratrees:food:33>
+Ore entries for <ore:cropElderberry> :
+-<extratrees:food:34>
+Ore entries for <ore:cropOlive> :
+-<extratrees:food:35>
+Ore entries for <ore:cropGingkoNut> :
+-<extratrees:food:36>
+Ore entries for <ore:listAllspice> :
+-<extratrees:food:36>
+-<extratrees:food:39>
+-<extratrees:food:53>
+-<extratrees:food:54>
+-<extratrees:food:56>
+Ore entries for <ore:cropCoffee> :
+-<extratrees:food:37>
+Ore entries for <ore:cropOsangeOrange> :
+-<extratrees:food:38>
+Ore entries for <ore:cropClove> :
+-<extratrees:food:39>
+Ore entries for <ore:cropPapayimar> :
+-<extratrees:food:40>
+Ore entries for <ore:cropBlackcurrant> :
+-<extratrees:food:41>
+Ore entries for <ore:cropRedcurrant> :
+-<extratrees:food:42>
+Ore entries for <ore:cropBlackberry> :
+-<extratrees:food:43>
+Ore entries for <ore:cropRaspberry> :
+-<extratrees:food:44>
+Ore entries for <ore:cropBlueberry> :
+-<extratrees:food:45>
+Ore entries for <ore:cropCranberry> :
+-<extratrees:food:46>
+Ore entries for <ore:cropJuniper> :
+-<extratrees:food:47>
+Ore entries for <ore:cropGooseberry> :
+-<extratrees:food:48>
+Ore entries for <ore:cropGoldenRaspberry> :
+-<extratrees:food:49>
+Ore entries for <ore:cropGoldenraspberry> :
+-<extratrees:food:49>
+Ore entries for <ore:cropCoconut> :
+-<extratrees:food:50>
+Ore entries for <ore:cropCashew> :
+-<extratrees:food:51>
+Ore entries for <ore:cropAvocado> :
+-<extratrees:food:52>
+Ore entries for <ore:cropNutmeg> :
+-<extratrees:food:53>
+Ore entries for <ore:cropAllspice> :
+-<extratrees:food:54>
+Ore entries for <ore:cropChilli> :
+-<extratrees:food:55>
+Ore entries for <ore:cropChilipepper> :
+-<extratrees:food:55>
+Ore entries for <ore:listAllpepper> :
+-<extratrees:food:55>
+Ore entries for <ore:cropStaranise> :
+-<extratrees:food:56>
+Ore entries for <ore:cropStarAnise> :
+-<extratrees:food:56>
+Ore entries for <ore:cropMango> :
+-<extratrees:food:57>
+Ore entries for <ore:cropStarfruit> :
+-<extratrees:food:58>
+Ore entries for <ore:cropCandlenut> :
+-<extratrees:food:59>
+Ore entries for <ore:cropCandleberry> :
+-<extratrees:food:59>
+Ore entries for <ore:cropCandle> :
+-<extratrees:food:59>
+Ore entries for <ore:cropHops> :
+-<extratrees:hops>
+Ore entries for <ore:seedWheat> :
+-<minecraft:wheat_seeds>
+-<extratrees:misc:6>
+Ore entries for <ore:seedBarley> :
+-<extratrees:misc:7>
+Ore entries for <ore:seedCorn> :
+-<extratrees:misc:9>
+Ore entries for <ore:seedRye> :
+-<extratrees:misc:8>
+Ore entries for <ore:seedRoasted> :
+-<extratrees:misc:10>
+Ore entries for <ore:foodApplejuice> :
+-<binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.juice.apple", Amount: 1000}})
+Ore entries for <ore:foodApricotjuice> :
+-<binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.juice.apricot", Amount: 1000}})
+Ore entries for <ore:foodBananajuice> :
+-<binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.juice.banana", Amount: 1000}})
+Ore entries for <ore:foodCherryjuice> :
+-<binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.juice.cherry", Amount: 1000}})
+Ore entries for <ore:foodElderberryjuice> :
+-<binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.juice.elderberry", Amount: 1000}})
+Ore entries for <ore:foodLemonjuice> :
+-<binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.juice.lemon", Amount: 1000}})
+Ore entries for <ore:foodLimejuice> :
+-<binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.juice.lime", Amount: 1000}})
+Ore entries for <ore:foodOrangejuice> :
+-<binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.juice.orange", Amount: 1000}})
+Ore entries for <ore:foodPeachjuice> :
+-<binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.juice.peach", Amount: 1000}})
+Ore entries for <ore:foodPlumjuice> :
+-<binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.juice.plum", Amount: 1000}})
+Ore entries for <ore:foodCarrotjuice> :
+-<binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.juice.carrot", Amount: 1000}})
+Ore entries for <ore:foodTomatojuice> :
+-<binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.juice.tomato", Amount: 1000}})
+Ore entries for <ore:foodCranberryjuice> :
+-<binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.juice.cranberry", Amount: 1000}})
+Ore entries for <ore:foodGrapefruitjuice> :
+-<binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.juice.grapefruit", Amount: 1000}})
+Ore entries for <ore:foodOlivejuice> :
+-<binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.juice.olive", Amount: 1000}})
+Ore entries for <ore:foodPineapplejuice> :
+-<binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.juice.pineapple", Amount: 1000}})
+Ore entries for <ore:foodPearjuice> :
+-<binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.juice.pear", Amount: 1000}})
+Ore entries for <ore:foodGrapejuice> :
+-<binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.juice.white.grape", Amount: 1000}})
+Ore entries for <ore:ballMud> :
+-<biomesoplenty:mudball>
+Ore entries for <ore:blockMeatRaw> :
+-<biomesoplenty:flesh>
+Ore entries for <ore:blockMud> :
+-<biomesoplenty:mud>
+Ore entries for <ore:foodMushroompowder> :
+-<biomesoplenty:shroompowder>
+Ore entries for <ore:foodFilledhoneycomb> :
+-<biomesoplenty:filled_honeycomb>
+Ore entries for <ore:foodBowlofrice> :
+-<biomesoplenty:ricebowl>
+Ore entries for <ore:cropPersimmon> :
+-<biomesoplenty:persimmon>
+Ore entries for <ore:gemAmethyst> :
+-<biomesoplenty:gem>
+Ore entries for <ore:oreAmethyst> :
+-<biomesoplenty:gem_ore>
+Ore entries for <ore:blockAmethyst> :
+-<biomesoplenty:gem_block>
+Ore entries for <ore:gemRuby> :
+-<biomesoplenty:gem:1>
+Ore entries for <ore:oreRuby> :
+-<biomesoplenty:gem_ore:1>
+Ore entries for <ore:blockRuby> :
+-<biomesoplenty:gem_block:1>
+Ore entries for <ore:gemPeridot> :
+-<biomesoplenty:gem:2>
+Ore entries for <ore:orePeridot> :
+-<biomesoplenty:gem_ore:2>
+Ore entries for <ore:blockPeridot> :
+-<biomesoplenty:gem_block:2>
+Ore entries for <ore:gemTopaz> :
+-<biomesoplenty:gem:3>
+Ore entries for <ore:oreTopaz> :
+-<biomesoplenty:gem_ore:3>
+Ore entries for <ore:blockTopaz> :
+-<biomesoplenty:gem_block:3>
+Ore entries for <ore:gemTanzanite> :
+-<biomesoplenty:gem:4>
+Ore entries for <ore:oreTanzanite> :
+-<biomesoplenty:gem_ore:4>
+Ore entries for <ore:blockTanzanite> :
+-<biomesoplenty:gem_block:4>
+Ore entries for <ore:gemMalachite> :
+-<biomesoplenty:gem:5>
+Ore entries for <ore:oreMalachite> :
+-<biomesoplenty:gem_ore:5>
+Ore entries for <ore:blockMalachite> :
+-<biomesoplenty:gem_block:5>
+Ore entries for <ore:gemSapphire> :
+-<biomesoplenty:gem:6>
+Ore entries for <ore:oreSapphire> :
+-<biomesoplenty:gem_ore:6>
+Ore entries for <ore:blockSapphire> :
+-<biomesoplenty:gem_block:6>
+Ore entries for <ore:gemAmber> :
+-<biomesoplenty:gem:7>
+Ore entries for <ore:oreAmber> :
+-<biomesoplenty:gem_ore:7>
+Ore entries for <ore:blockAmber> :
+-<biomesoplenty:gem_block:7>
+Ore entries for <ore:flowerClover> :
+-<biomesoplenty:flower_0>
+Ore entries for <ore:flowerSwampflower> :
+-<biomesoplenty:flower_0:1>
+Ore entries for <ore:flowerDeathbloom> :
+-<biomesoplenty:flower_0:2>
+Ore entries for <ore:flowerGlowflower> :
+-<biomesoplenty:flower_0:3>
+Ore entries for <ore:flowerBlueHydrangea> :
+-<biomesoplenty:flower_0:4>
+Ore entries for <ore:flowerOrangeCosmos> :
+-<biomesoplenty:flower_0:5>
+Ore entries for <ore:flowerPinkDaffodil> :
+-<biomesoplenty:flower_0:6>
+Ore entries for <ore:flowerWildflower> :
+-<biomesoplenty:flower_0:7>
+Ore entries for <ore:flowerViolet> :
+-<biomesoplenty:flower_0:8>
+Ore entries for <ore:flowerWhiteAnemone> :
+-<biomesoplenty:flower_0:9>
+Ore entries for <ore:flowerEnderlotus> :
+-<biomesoplenty:flower_0:10>
+Ore entries for <ore:flowerBromeliad> :
+-<biomesoplenty:flower_0:11>
+Ore entries for <ore:flowerWiltedLily> :
+-<biomesoplenty:flower_0:12>
+Ore entries for <ore:flowerPinkHibiscus> :
+-<biomesoplenty:flower_0:13>
+Ore entries for <ore:flowerLilyOfTheValley> :
+-<biomesoplenty:flower_0:14>
+Ore entries for <ore:flowerBurningBlossom> :
+-<biomesoplenty:flower_0:15>
+Ore entries for <ore:flowerLavender> :
+-<biomesoplenty:flower_1>
+Ore entries for <ore:flowerGoldenrod> :
+-<biomesoplenty:flower_1:1>
+Ore entries for <ore:flowerBluebells> :
+-<biomesoplenty:flower_1:2>
+Ore entries for <ore:flowerMinersDelight> :
+-<biomesoplenty:flower_1:3>
+Ore entries for <ore:flowerIcyIris> :
+-<biomesoplenty:flower_1:4>
+Ore entries for <ore:flowerRose> :
+-<biomesoplenty:flower_1:5>
+Ore entries for <ore:plantShortgrass> :
+-<biomesoplenty:plant_0>
+Ore entries for <ore:plantMediumgrass> :
+-<biomesoplenty:plant_0:1>
+Ore entries for <ore:plantBush> :
+-<biomesoplenty:plant_0:2>
+Ore entries for <ore:plantSprout> :
+-<biomesoplenty:plant_0:3>
+Ore entries for <ore:plantPoisonivy> :
+-<biomesoplenty:plant_0:4>
+Ore entries for <ore:plantBerrybush> :
+-<biomesoplenty:plant_0:5>
+Ore entries for <ore:plantShrub> :
+-<biomesoplenty:plant_0:6>
+Ore entries for <ore:plantWheatgrass> :
+-<biomesoplenty:plant_0:7>
+Ore entries for <ore:plantDampgrass> :
+-<biomesoplenty:plant_0:8>
+Ore entries for <ore:plantKoru> :
+-<biomesoplenty:plant_0:9>
+Ore entries for <ore:plantCloverpatch> :
+-<biomesoplenty:plant_0:10>
+Ore entries for <ore:plantLeafpile> :
+-<biomesoplenty:plant_0:11>
+Ore entries for <ore:plantDeadleafpile> :
+-<biomesoplenty:plant_0:12>
+Ore entries for <ore:plantDeadgrass> :
+-<biomesoplenty:plant_0:13>
+Ore entries for <ore:plantDesertgrass> :
+-<biomesoplenty:plant_0:14>
+Ore entries for <ore:plantDesertsprouts> :
+-<biomesoplenty:plant_0:15>
+Ore entries for <ore:plantDunegrass> :
+-<biomesoplenty:plant_1>
+Ore entries for <ore:plantSpectralfern> :
+-<biomesoplenty:plant_1:1>
+Ore entries for <ore:plantThorn> :
+-<biomesoplenty:plant_1:2>
+Ore entries for <ore:plantWildrice> :
+-<biomesoplenty:plant_1:3>
+Ore entries for <ore:plantCattail> :
+-<biomesoplenty:plant_1:4>
+-<biomesoplenty:double_plant:1>
+Ore entries for <ore:plantRivercane> :
+-<biomesoplenty:plant_1:5>
+Ore entries for <ore:plantTinycactus> :
+-<biomesoplenty:plant_1:6>
+Ore entries for <ore:plantDevilweed> :
+-<biomesoplenty:plant_1:7>
+Ore entries for <ore:plantReed> :
+-<biomesoplenty:plant_1:8>
+Ore entries for <ore:plantRoot> :
+-<biomesoplenty:plant_1:9>
+Ore entries for <ore:plantRafflesia> :
+-<biomesoplenty:plant_1:10>
+Ore entries for <ore:plantBarley> :
+-<biomesoplenty:plant_1:11>
+Ore entries for <ore:plantFlax> :
+-<biomesoplenty:double_plant>
+Ore entries for <ore:blockWoolWhite> :
+-<minecraft:wool>
+Ore entries for <ore:blockWoolOrange> :
+-<minecraft:wool:1>
+Ore entries for <ore:blockWoolMagenta> :
+-<minecraft:wool:2>
+Ore entries for <ore:blockWoolLightBlue> :
+-<minecraft:wool:3>
+Ore entries for <ore:blockWoolYellow> :
+-<minecraft:wool:4>
+Ore entries for <ore:blockWoolLime> :
+-<minecraft:wool:5>
+Ore entries for <ore:blockWoolPink> :
+-<minecraft:wool:6>
+Ore entries for <ore:blockWoolGray> :
+-<minecraft:wool:7>
+Ore entries for <ore:blockWoolLightGray> :
+-<minecraft:wool:8>
+Ore entries for <ore:blockWoolCyan> :
+-<minecraft:wool:9>
+Ore entries for <ore:blockWoolPurple> :
+-<minecraft:wool:10>
+Ore entries for <ore:blockWoolBlue> :
+-<minecraft:wool:11>
+Ore entries for <ore:blockWoolBrown> :
+-<minecraft:wool:12>
+Ore entries for <ore:blockWoolGreen> :
+-<minecraft:wool:13>
+Ore entries for <ore:blockWoolRed> :
+-<minecraft:wool:14>
+Ore entries for <ore:blockWoolBlack> :
+-<minecraft:wool:15>
+Ore entries for <ore:blockGlowstone> :
+-<minecraft:glowstone>
+Ore entries for <ore:coal> :
+-<minecraft:coal>
+Ore entries for <ore:charcoal> :
+-<minecraft:coal:1>
+Ore entries for <ore:dustBlaze> :
+-<minecraft:blaze_powder>
+Ore entries for <ore:rodBlaze> :
+-<minecraft:blaze_rod>
+Ore entries for <ore:cropBeetroot> :
+-<minecraft:beetroot>
+Ore entries for <ore:cropMelon> :
+-<minecraft:melon_block>
+Ore entries for <ore:cropPumpkin> :
+-<minecraft:pumpkin>
+Ore entries for <ore:seedBeetroot> :
+-<minecraft:beetroot_seeds>
+Ore entries for <ore:seedMelon> :
+-<minecraft:melon_seeds>
+Ore entries for <ore:seedPumpkin> :
+-<minecraft:pumpkin_seeds>
+Ore entries for <ore:cofh:potion> :
+-<minecraft:potion>
+Ore entries for <ore:oreAluminum> :
+-<thermalfoundation:ore:4>
+Ore entries for <ore:oreNickel> :
+-<thermalfoundation:ore:5>
+Ore entries for <ore:orePlatinum> :
+-<thermalfoundation:ore:6>
+Ore entries for <ore:oreIridium> :
+-<thermalfoundation:ore:7>
+Ore entries for <ore:oreMithril> :
+-<thermalfoundation:ore:8>
+Ore entries for <ore:oreClathrateOilSand> :
+-<thermalfoundation:ore_fluid>
+-<thermalfoundation:ore_fluid:5>
+Ore entries for <ore:oreClathrateOilShale> :
+-<thermalfoundation:ore_fluid:1>
+Ore entries for <ore:oreClathrateRedstone> :
+-<thermalfoundation:ore_fluid:2>
+Ore entries for <ore:oreClathrateGlowstone> :
+-<thermalfoundation:ore_fluid:3>
+Ore entries for <ore:oreClathrateEnder> :
+-<thermalfoundation:ore_fluid:4>
+Ore entries for <ore:blockAluminum> :
+-<thermalfoundation:storage:4>
+Ore entries for <ore:blockNickel> :
+-<thermalfoundation:storage:5>
+Ore entries for <ore:blockPlatinum> :
+-<thermalfoundation:storage:6>
+Ore entries for <ore:blockIridium> :
+-<thermalfoundation:storage:7>
+Ore entries for <ore:blockMithril> :
+-<thermalfoundation:storage:8>
+Ore entries for <ore:blockElectrum> :
+-<thermalfoundation:storage_alloy:1>
+Ore entries for <ore:blockInvar> :
+-<thermalfoundation:storage_alloy:2>
+Ore entries for <ore:blockConstantan> :
+-<thermalfoundation:storage_alloy:4>
+Ore entries for <ore:blockSignalum> :
+-<thermalfoundation:storage_alloy:5>
+Ore entries for <ore:blockLumium> :
+-<thermalfoundation:storage_alloy:6>
+Ore entries for <ore:blockEnderium> :
+-<thermalfoundation:storage_alloy:7>
+Ore entries for <ore:blockFuelCoke> :
+-<thermalfoundation:storage_resource:1>
+Ore entries for <ore:blockGlassHardened> :
+-<thermalfoundation:glass:*>
+-<thermalfoundation:glass_alloy:*>
+Ore entries for <ore:blockRockwool> :
+-<thermalfoundation:rockwool:*>
+Ore entries for <ore:coinIron> :
+-<thermalfoundation:coin>
+Ore entries for <ore:coinGold> :
+-<thermalfoundation:coin:1>
+Ore entries for <ore:coinCopper> :
+-<thermalfoundation:coin:64>
+Ore entries for <ore:coinTin> :
+-<thermalfoundation:coin:65>
+Ore entries for <ore:coinSilver> :
+-<thermalfoundation:coin:66>
+Ore entries for <ore:coinLead> :
+-<thermalfoundation:coin:67>
+Ore entries for <ore:coinAluminum> :
+-<thermalfoundation:coin:68>
+Ore entries for <ore:coinNickel> :
+-<thermalfoundation:coin:69>
+Ore entries for <ore:coinPlatinum> :
+-<thermalfoundation:coin:70>
+Ore entries for <ore:coinIridium> :
+-<thermalfoundation:coin:71>
+Ore entries for <ore:coinMithril> :
+-<thermalfoundation:coin:72>
+Ore entries for <ore:coinSteel> :
+-<thermalfoundation:coin:96>
+Ore entries for <ore:coinElectrum> :
+-<thermalfoundation:coin:97>
+Ore entries for <ore:coinInvar> :
+-<thermalfoundation:coin:98>
+Ore entries for <ore:coinBronze> :
+-<thermalfoundation:coin:99>
+Ore entries for <ore:coinConstantan> :
+-<thermalfoundation:coin:100>
+Ore entries for <ore:coinSignalum> :
+-<thermalfoundation:coin:101>
+Ore entries for <ore:coinLumium> :
+-<thermalfoundation:coin:102>
+Ore entries for <ore:coinEnderium> :
+-<thermalfoundation:coin:103>
+Ore entries for <ore:nuggetDiamond> :
+-<thermalfoundation:material:16>
+-<morebees:diamondfragment>
+Ore entries for <ore:nuggetEmerald> :
+-<thermalfoundation:material:17>
+-<morebees:emeraldfragment>
+Ore entries for <ore:gearWood> :
+-<thermalfoundation:material:22>
+-<appliedenergistics2:material:40>
+-<buildcraftcore:gear_wood>
+Ore entries for <ore:gearStone> :
+-<thermalfoundation:material:23>
+-<buildcraftcore:gear_stone>
+Ore entries for <ore:gearIron> :
+-<thermalfoundation:material:24>
+-<buildcraftcore:gear_iron>
+Ore entries for <ore:gearGold> :
+-<thermalfoundation:material:25>
+-<buildcraftcore:gear_gold>
+Ore entries for <ore:gearDiamond> :
+-<thermalfoundation:material:26>
+-<buildcraftcore:gear_diamond>
+Ore entries for <ore:gearEmerald> :
+-<thermalfoundation:material:27>
+Ore entries for <ore:dustAluminum> :
+-<thermalfoundation:material:68>
+-<morebees:dustaluminium>
+Ore entries for <ore:dustNickel> :
+-<thermalfoundation:material:69>
+-<morebees:dustnickel>
+Ore entries for <ore:dustPlatinum> :
+-<thermalfoundation:material:70>
+-<morebees:dustplatinum>
+Ore entries for <ore:dustIridium> :
+-<thermalfoundation:material:71>
+-<morebees:dustiridium>
+Ore entries for <ore:dustMithril> :
+-<thermalfoundation:material:72>
+Ore entries for <ore:dustSteel> :
+-<thermalfoundation:material:96>
+Ore entries for <ore:dustElectrum> :
+-<thermalfoundation:material:97>
+Ore entries for <ore:dustInvar> :
+-<thermalfoundation:material:98>
+Ore entries for <ore:dustConstantan> :
+-<thermalfoundation:material:100>
+Ore entries for <ore:dustSignalum> :
+-<thermalfoundation:material:101>
+Ore entries for <ore:dustLumium> :
+-<thermalfoundation:material:102>
+Ore entries for <ore:dustEnderium> :
+-<thermalfoundation:material:103>
+Ore entries for <ore:ingotAluminum> :
+-<thermalfoundation:material:132>
+Ore entries for <ore:ingotNickel> :
+-<thermalfoundation:material:133>
+Ore entries for <ore:ingotPlatinum> :
+-<thermalfoundation:material:134>
+Ore entries for <ore:ingotMithril> :
+-<thermalfoundation:material:136>
+Ore entries for <ore:ingotElectrum> :
+-<thermalfoundation:material:161>
+Ore entries for <ore:ingotInvar> :
+-<thermalfoundation:material:162>
+Ore entries for <ore:ingotConstantan> :
+-<thermalfoundation:material:164>
+Ore entries for <ore:ingotSignalum> :
+-<thermalfoundation:material:165>
+Ore entries for <ore:ingotLumium> :
+-<thermalfoundation:material:166>
+Ore entries for <ore:ingotEnderium> :
+-<thermalfoundation:material:167>
+Ore entries for <ore:nuggetCopper> :
+-<thermalfoundation:material:192>
+Ore entries for <ore:nuggetTin> :
+-<thermalfoundation:material:193>
+Ore entries for <ore:nuggetSilver> :
+-<thermalfoundation:material:194>
+Ore entries for <ore:nuggetLead> :
+-<thermalfoundation:material:195>
+Ore entries for <ore:nuggetAluminum> :
+-<thermalfoundation:material:196>
+Ore entries for <ore:nuggetNickel> :
+-<thermalfoundation:material:197>
+Ore entries for <ore:nuggetPlatinum> :
+-<thermalfoundation:material:198>
+Ore entries for <ore:nuggetMithril> :
+-<thermalfoundation:material:200>
+Ore entries for <ore:nuggetSteel> :
+-<thermalfoundation:material:224>
+Ore entries for <ore:nuggetElectrum> :
+-<thermalfoundation:material:225>
+Ore entries for <ore:nuggetInvar> :
+-<thermalfoundation:material:226>
+Ore entries for <ore:nuggetBronze> :
+-<thermalfoundation:material:227>
+Ore entries for <ore:nuggetConstantan> :
+-<thermalfoundation:material:228>
+Ore entries for <ore:nuggetSignalum> :
+-<thermalfoundation:material:229>
+Ore entries for <ore:nuggetLumium> :
+-<thermalfoundation:material:230>
+Ore entries for <ore:nuggetEnderium> :
+-<thermalfoundation:material:231>
+Ore entries for <ore:gearSilver> :
+-<thermalfoundation:material:258>
+Ore entries for <ore:gearLead> :
+-<thermalfoundation:material:259>
+Ore entries for <ore:gearAluminum> :
+-<thermalfoundation:material:260>
+Ore entries for <ore:gearNickel> :
+-<thermalfoundation:material:261>
+Ore entries for <ore:gearPlatinum> :
+-<thermalfoundation:material:262>
+Ore entries for <ore:gearIridium> :
+-<thermalfoundation:material:263>
+Ore entries for <ore:gearMithril> :
+-<thermalfoundation:material:264>
+Ore entries for <ore:gearSteel> :
+-<thermalfoundation:material:288>
+Ore entries for <ore:gearElectrum> :
+-<thermalfoundation:material:289>
+Ore entries for <ore:gearInvar> :
+-<thermalfoundation:material:290>
+Ore entries for <ore:gearConstantan> :
+-<thermalfoundation:material:292>
+Ore entries for <ore:gearSignalum> :
+-<thermalfoundation:material:293>
+Ore entries for <ore:gearLumium> :
+-<thermalfoundation:material:294>
+Ore entries for <ore:gearEnderium> :
+-<thermalfoundation:material:295>
+Ore entries for <ore:plateSilver> :
+-<thermalfoundation:material:322>
+Ore entries for <ore:plateAluminum> :
+-<thermalfoundation:material:324>
+Ore entries for <ore:plateNickel> :
+-<thermalfoundation:material:325>
+Ore entries for <ore:platePlatinum> :
+-<thermalfoundation:material:326>
+Ore entries for <ore:plateIridium> :
+-<thermalfoundation:material:327>
+Ore entries for <ore:plateMithril> :
+-<thermalfoundation:material:328>
+Ore entries for <ore:plateElectrum> :
+-<thermalfoundation:material:353>
+Ore entries for <ore:plateInvar> :
+-<thermalfoundation:material:354>
+Ore entries for <ore:plateConstantan> :
+-<thermalfoundation:material:356>
+Ore entries for <ore:plateSignalum> :
+-<thermalfoundation:material:357>
+Ore entries for <ore:plateLumium> :
+-<thermalfoundation:material:358>
+Ore entries for <ore:plateEnderium> :
+-<thermalfoundation:material:359>
+Ore entries for <ore:dustCharcoal> :
+-<thermalfoundation:material:769>
+Ore entries for <ore:dustWood> :
+-<thermalfoundation:material:800>
+Ore entries for <ore:crystalSlag> :
+-<thermalfoundation:material:864>
+Ore entries for <ore:crystalSlagRich> :
+-<thermalfoundation:material:865>
+Ore entries for <ore:crystalCinnabar> :
+-<thermalfoundation:material:866>
+Ore entries for <ore:crystalCrudeOil> :
+-<thermalfoundation:material:892>
+Ore entries for <ore:crystalRedstone> :
+-<thermalfoundation:material:893>
+Ore entries for <ore:crystalGlowstone> :
+-<thermalfoundation:material:894>
+Ore entries for <ore:crystalEnder> :
+-<thermalfoundation:material:895>
+Ore entries for <ore:dustPyrotheum> :
+-<thermalfoundation:material:1024>
+Ore entries for <ore:dustCryotheum> :
+-<thermalfoundation:material:1025>
+Ore entries for <ore:dustAerotheum> :
+-<thermalfoundation:material:1026>
+Ore entries for <ore:dustPetrotheum> :
+-<thermalfoundation:material:1027>
+Ore entries for <ore:dustMana> :
+-<thermalfoundation:material:1028>
+Ore entries for <ore:rodBlizz> :
+-<thermalfoundation:material:2048>
+Ore entries for <ore:dustBlizz> :
+-<thermalfoundation:material:2049>
+Ore entries for <ore:rodBlitz> :
+-<thermalfoundation:material:2050>
+Ore entries for <ore:dustBlitz> :
+-<thermalfoundation:material:2051>
+Ore entries for <ore:rodBasalz> :
+-<thermalfoundation:material:2052>
+Ore entries for <ore:dustBasalz> :
+-<thermalfoundation:material:2053>
+Ore entries for <ore:dustSaltpeter> :
+-<thermalfoundation:material:772>
+Ore entries for <ore:itemSawdust> :
+-<thermalfoundation:material:800>
+Ore entries for <ore:itemBiomass> :
+-<thermalfoundation:material:816>
+Ore entries for <ore:itemBioblend> :
+-<thermalfoundation:material:818>
+Ore entries for <ore:itemBiomassRich> :
+-<thermalfoundation:material:817>
+Ore entries for <ore:itemBioblendRich> :
+-<thermalfoundation:material:819>
+Ore entries for <ore:itemSlagRich> :
+-<thermalfoundation:material:865>
+Ore entries for <ore:itemCinnabar> :
+-<thermalfoundation:material:866>
+Ore entries for <ore:clathrateOil> :
+-<thermalfoundation:material:892>
+Ore entries for <ore:clathrateRedstone> :
+-<thermalfoundation:material:893>
+Ore entries for <ore:clathrateGlowstone> :
+-<thermalfoundation:material:894>
+Ore entries for <ore:clathrateEnder> :
+-<thermalfoundation:material:895>
+Ore entries for <ore:oreCertusQuartz> :
+-<appliedenergistics2:quartz_ore>
+-<appliedenergistics2:charged_quartz_ore>
+Ore entries for <ore:oreChargedCertusQuartz> :
+-<appliedenergistics2:charged_quartz_ore>
+Ore entries for <ore:itemQuartzWrench> :
+-<appliedenergistics2:certus_quartz_wrench>
+-<appliedenergistics2:nether_quartz_wrench>
+Ore entries for <ore:itemQuartzKnife> :
+-<appliedenergistics2:certus_quartz_cutting_knife>
+-<appliedenergistics2:nether_quartz_cutting_knife>
+Ore entries for <ore:crystalCertusQuartz> :
+-<appliedenergistics2:material>
+Ore entries for <ore:dustCertusQuartz> :
+-<appliedenergistics2:material:2>
+Ore entries for <ore:dustNetherQuartz> :
+-<appliedenergistics2:material:3>
+Ore entries for <ore:dustQuartz> :
+-<appliedenergistics2:material:3>
+Ore entries for <ore:dustWheat> :
+-<appliedenergistics2:material:4>
+Ore entries for <ore:itemSilicon> :
+-<appliedenergistics2:material:5>
+Ore entries for <ore:crystalFluix> :
+-<appliedenergistics2:material:7>
+Ore entries for <ore:dustFluix> :
+-<appliedenergistics2:material:8>
+Ore entries for <ore:pearlFluix> :
+-<appliedenergistics2:material:9>
+Ore entries for <ore:crystalPureCertusQuartz> :
+-<appliedenergistics2:material:10>
+Ore entries for <ore:crystalPureNetherQuartz> :
+-<appliedenergistics2:material:11>
+Ore entries for <ore:crystalPureFluix> :
+-<appliedenergistics2:material:12>
+Ore entries for <ore:dustEnder> :
+-<appliedenergistics2:material:46>
+Ore entries for <ore:dustEnderPearl> :
+-<appliedenergistics2:material:46>
+Ore entries for <ore:itemIlluminatedPanel> :
+-<appliedenergistics2:part:160>
+-<appliedenergistics2:part:180>
+-<appliedenergistics2:part:200>
