@@ -53,6 +53,7 @@ val steelPlate = <ic2:plate:7>;
 val bronzePlate = <ic2:plate>;
 val obsidianPlate = <ic2:plate:6>;
 val lapisPlate = <ic2:plate:4>;
+val carbonPlate = <ic2:crafting:15>;
 
 //Dense Plates (плотные)
 val ironDensePlate = <ic2:plate:12>;
