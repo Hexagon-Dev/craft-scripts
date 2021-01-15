@@ -19,6 +19,7 @@ val coal = <minecraft:coal>;
 val flint = <minecraft:flint>;
 val lapis = <minecraft:dye:4u>;
 val diamond = <minecraft:diamond>;
+val quartz = <minecraft:quartz>;
 
 //Blocks
 val ironBlock = <minecraft:iron_ingot>;
