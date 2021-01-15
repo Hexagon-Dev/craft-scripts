@@ -13,25 +13,35 @@ val uranium = <ic2:ingot:8>;
 val refinedIron = <ic2:ingot:7>;
 val iridium = <ore:ingotIridium>;
 
-//Misc ores
+//Misc resources
 val redstone = <minecraft:redstone>;
 val coal = <minecraft:coal>;
 val flint = <minecraft:flint>;
 val lapis = <minecraft:dye:4u>;
 val diamond = <minecraft:diamond>;
+val quartz = <minecraft:quartz>;
+val glowstone = <minecraft:glowstone_dust>;
+val gunpowder = <minecraft:gunpowder>;
 
 //Blocks
-val ironBlock = <minecraft:iron_ingot>;
-val goldBlock = <minecraft:golda_ingot>;
+val ironBlock = <minecraft:iron_block>;
+val goldBlock = <minecraft:gold_block>;
 val tinBlock = <ic2:resource:9>;
 val copperBlock = <ic2:resource:6>;
-val silverBlock = <ic2:ingot:4>;
+val silverBlock = <ic2:resource:15>;
 val leadBlock = <ic2:resource:7>;
 val steelBlock = <ic2:resource:8>;
 val bronzeBlock = <ic2:resource:5>;
-val uraniumBlock = <ic2:ingot:8>;
-val refinedIronBlock = <ic2:ingot:7>;
-val iridiumBlock = <ore:ingotIridium>;
+val stone = <minecraft:stone>;
+val cobblestone = <minecraft:cobblestone>;
+val gravel = <minecraft:gravel>;
+val sand = <minecraft:sand:*>;
+val obsidian = <minecraft:obsidian>;
+val glowstone = <minecraft:glowstone>;
+val workbench = <minecraft:crafting_table>;
+val glass = <minecraft:glass>;
+val chest = <minecraft:chest>;
+
 
 //Plates
 val ironPlate = <ic2:plate:3>;
