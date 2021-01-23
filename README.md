@@ -1,4 +1,6 @@
 # CraftScriptIC2
+Сделано для лучшего майнкрафт проекта HexCraft. https://hex-craft.ru
+Скрипт рецептов для IndustrialCraft2.
 Файл скрипта - .zs
 
 Все названия предметов можно посмотреть в файлик MinecraftItems.log
