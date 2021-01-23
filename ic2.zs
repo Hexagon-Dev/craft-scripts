@@ -33,6 +33,7 @@ val leadBlock = <ic2:resource:7>;
 val steelBlock = <ic2:resource:8>;
 val bronzeBlock = <ic2:resource:5>;
 val stone = <minecraft:stone>;
+val dirt = <minecraft:dirt>;
 val cobblestone = <minecraft:cobblestone>;
 val gravel = <minecraft:gravel>;
 val sand = <minecraft:sand:*>;
@@ -42,6 +43,7 @@ val workbench = <minecraft:crafting_table>;
 val glass = <minecraft:glass>;
 val chest = <minecraft:chest>;
 val glassPane = <minecraft:glass_pane>;
+val planks = <minecraft:planks>;
 
 
 //Plates
@@ -100,21 +102,91 @@ val tinInsulatedCable = <ore:itemInsulatedTinCable>;
 val copperInsulatedCable = <ore:itemInsulatedCopperCable>;
 val glassInsulatedCable = <ore:itemInsulatedGlassCable>;
 
+//Misc
+val workbench = <minecraft:crafting_table>;
+val furnace = <minecraft:furnace>;
+
 //Misc IC2
 val rubber = <ore:itemRubber>;
+val coil = <ic2:crafting:5>;
 val circuit = <ic2:crafting:1>;
 val circuitAdvanced = <ic2:crafting:2>;
 val battery = <ic2:re_battery:*>;
 val energyCrystal = <ic2:energy_crystal:*>;
 val energyLapisCrystal = <ic2:lapotron_crystal:*>;
+val hammer = <ic2:forge_hammer>;
+val cutter = <ic2:cutter>;
+val treetap = <ic2:treetap>;
+val toolBox = <ic2:tool_box>;
 
 //Machines
 val machineBlock = <ic2:resource:12>;
 val ironFurnance = <ic2:te:46>;
+val electricFurnance = <ic2:te:44>;
 val generator = <ic2:te:3>;
+val promWorkbench = <ic2:te:88>;
+val extractor = <ic2:te:45>;
+val compressor = <ic2:te:43>;
+val macerator = <ic2:te:47>;
+val utilizer = <ic2:te:48>;
+val metalFormer = <ic2:te:55>;
+val batteryBox = <ic2:te:72>;
+
+//Рабочие крафты:
+//Аккумулятор, молот, кусачки, пластины
+
+recipes.addShaped("craftIronFurnance1", ironFurnance,
+ [[null,		ironPlate,		null],
+  [ironPlate,	ironPlate,		ironPlate],
+  [ironPlate,	furnace,		ironPlate]]);
 
 recipes.addShaped("craftGenerator1", generator,
  [[null,		iron,			null],
   [ironPlate,	ironPlate,		ironPlate],
   [null,		ironFurnance,	null]]);
+  
+recipes.addShaped("craftGenerator2", generator,
+ [[null,		iron,			null],
+  [null,		machineBlock,	null],
+  [null,		ironFurnance,	null]]);
+
+recipes.addShaped("craftPromWorkbench", promWorkbench,
+ [[null,		null,			null],
+  [null,		workbench,		null],
+  [hammer,		machineBlock,	cutter]]);
+  
+recipes.addShaped("craftElectricFurnance", electricFurnance,
+ [[null,		null,			null],
+  [null,		circuit,		null],
+  [redstone,	ironFurnance,	redstone]]);
+  
+recipes.addShaped("craftExtractor", extractor,
+ [[null,		null,			null],
+  [treetap,		machineBlock,	treetap],
+  [treetap,		circuit,		treetap]]);
+  
+recipes.addShaped("craftCompressor", compressor,
+ [[stone,		null,			stone],
+  [stone,		machineBlock,	stone],
+  [stone,		circuit,		stone]]);
+  
+recipes.addShaped("craftMacerator", macerator,
+ [[flint,		flint,			flint],
+  [cobblestone,	machineBlock,	cobblestone],
+  [null,		circuit,		null]]);
+  
+recipes.addShaped("craftUtilizer", utilizer,
+ [[null,		glowstone_dust,	null],
+  [dirt,		compressor,		dirt],
+  [iron,		dirt,			iron]]);
+  
+recipes.addShaped("craftMetalFormer", metalFormer,
+ [[null,		circuit,		null],
+  [toolBox,		machineBlock,	toolBox],
+  [coil,		coil,			coil]]);
+  
+recipes.addShaped("craftBatteryBox", batteryBox,
+ [[planks,		tinInsulatedCable,	planks],
+  [battery,		battery,			battery],
+  [planks,		planks,				planks]]);
   
