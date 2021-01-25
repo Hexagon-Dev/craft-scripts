@@ -133,57 +133,57 @@ val batteryBox = <ic2:te:72>;
 //Рабочие крафты:
 //Аккумулятор, молот, кусачки, пластины
 
-recipes.addShaped("craftIronFurnance1", ironFurnance,
+craftingTable.addShaped("craftIronFurnance1", ironFurnance,
  [[null,		ironPlate,		null],
   [ironPlate,	ironPlate,		ironPlate],
   [ironPlate,	furnace,		ironPlate]]);
 
-recipes.addShaped("craftGenerator1", generator,
+craftingTable.addShaped("craftGenerator1", generator,
  [[null,		iron,			null],
   [ironPlate,	ironPlate,		ironPlate],
   [null,		ironFurnance,	null]]);
   
-recipes.addShaped("craftGenerator2", generator,
+craftingTable.addShaped("craftGenerator2", generator,
  [[null,		iron,			null],
   [null,		machineBlock,	null],
   [null,		ironFurnance,	null]]);
 
-recipes.addShaped("craftPromWorkbench", promWorkbench,
+craftingTable.addShaped("craftPromWorkbench", promWorkbench,
  [[null,		null,			null],
   [null,		workbench,		null],
   [hammer,		machineBlock,	cutter]]);
   
-recipes.addShaped("craftElectricFurnance", electricFurnance,
+craftingTable.addShaped("craftElectricFurnance", electricFurnance,
  [[null,		null,			null],
   [null,		circuit,		null],
   [redstone,	ironFurnance,	redstone]]);
   
-recipes.addShaped("craftExtractor", extractor,
+craftingTable.addShaped("craftExtractor", extractor,
  [[null,		null,			null],
   [treetap,		machineBlock,	treetap],
   [treetap,		circuit,		treetap]]);
   
-recipes.addShaped("craftCompressor", compressor,
+craftingTable.addShaped("craftCompressor", compressor,
  [[stone,		null,			stone],
   [stone,		machineBlock,	stone],
   [stone,		circuit,		stone]]);
   
-recipes.addShaped("craftMacerator", macerator,
+craftingTable.addShaped("craftMacerator", macerator,
  [[flint,		flint,			flint],
   [cobblestone,	machineBlock,	cobblestone],
   [null,		circuit,		null]]);
   
-recipes.addShaped("craftUtilizer", utilizer,
+craftingTable.addShaped("craftUtilizer", utilizer,
  [[null,		glowstone,		null],
   [dirt,		compressor,		dirt],
   [iron,		dirt,			iron]]);
   
-recipes.addShaped("craftMetalFormer", metalFormer,
+craftingTable.addShaped("craftMetalFormer", metalFormer,
  [[null,		circuit,		null],
   [toolBox,		machineBlock,	toolBox],
   [coil,		coil,			coil]]);
   
-recipes.addShaped("craftBatteryBox", batteryBox,
+craftingTable.addShaped("craftBatteryBox", batteryBox,
  [[planks,		tinInsulatedCable,	planks],
   [battery,		battery,			battery],
   [planks,		planks,				planks]]);
