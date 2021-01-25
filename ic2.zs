@@ -2,7 +2,7 @@ enableDebug();
 
 //Ingots
 val iron = <minecraft:iron_ingot>;
-val gold = <minecraft:golda_ingot>;
+val gold = <minecraft:gold_ingot>;
 val tin = <ic2:ingot:6>;
 val copper = <ic2:ingot:2>;
 val silver = <ic2:ingot:4>;
@@ -17,7 +17,7 @@ val iridium = <ore:ingotIridium>;
 val redstone = <minecraft:redstone>;
 val coal = <minecraft:coal>;
 val flint = <minecraft:flint>;
-val lapis = <minecraft:dye:4u>;
+val lapis = <minecraft:dye:4>;
 val diamond = <minecraft:diamond>;
 val quartz = <minecraft:quartz>;
 val glowstone = <minecraft:glowstone_dust>;
@@ -38,7 +38,6 @@ val cobblestone = <minecraft:cobblestone>;
 val gravel = <minecraft:gravel>;
 val sand = <minecraft:sand:*>;
 val obsidian = <minecraft:obsidian>;
-val glowstone = <minecraft:glowstone>;
 val workbench = <minecraft:crafting_table>;
 val glass = <minecraft:glass>;
 val chest = <minecraft:chest>;
@@ -103,7 +102,6 @@ val copperInsulatedCable = <ore:itemInsulatedCopperCable>;
 val glassInsulatedCable = <ore:itemInsulatedGlassCable>;
 
 //Misc
-val workbench = <minecraft:crafting_table>;
 val furnace = <minecraft:furnace>;
 
 //Misc IC2
@@ -176,7 +174,7 @@ recipes.addShaped("craftMacerator", macerator,
   [null,		circuit,		null]]);
   
 recipes.addShaped("craftUtilizer", utilizer,
- [[null,		glowstone_dust,	null],
+ [[null,		glowstone,		null],
   [dirt,		compressor,		dirt],
   [iron,		dirt,			iron]]);
   
