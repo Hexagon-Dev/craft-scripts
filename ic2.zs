@@ -135,16 +135,16 @@ val batteryBox = <ic2:te:72>;
 
 craftingTable.addShaped("craftIronFurnance1", ironFurnance,
  [[null,		ironPlate,		null],
-  [ironPlate,	ironPlate,		ironPlate],
+  [ironPlate,	null,			ironPlate],
   [ironPlate,	furnace,		ironPlate]]);
 
 craftingTable.addShaped("craftGenerator1", generator,
- [[null,		iron,			null],
+ [[null,		battery,		null],
   [ironPlate,	ironPlate,		ironPlate],
   [null,		ironFurnance,	null]]);
   
 craftingTable.addShaped("craftGenerator2", generator,
- [[null,		iron,			null],
+ [[null,		battery,		null],
   [null,		machineBlock,	null],
   [null,		ironFurnance,	null]]);
 
