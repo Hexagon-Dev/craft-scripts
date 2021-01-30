@@ -116,6 +116,7 @@ val hammer = <ic2:forge_hammer>;
 val cutter = <ic2:cutter>;
 val treetap = <ic2:treetap>;
 val toolBox = <ic2:tool_box>;
+val drillBit = <comboarmors:assembly_drill_bit>;
 
 //Machines
 val machineBlock = <ic2:resource:12>;
@@ -130,61 +131,8 @@ val utilizer = <ic2:te:48>;
 val metalFormer = <ic2:te:55>;
 val batteryBox = <ic2:te:72>;
 
-//Рабочие крафты:
-//Аккумулятор, молот, кусачки, пластины
+craftingTable.addShaped("craftDrill", <comboarmors:assembly_drill>,
+ [[drillBit,	ironPlate,		circuit],
+  [null,		null,			battery],
+  [null,		null,			ironPlate]]);
 
-craftingTable.addShaped("craftIronFurnance1", ironFurnance,
- [[null,		ironPlate,		null],
-  [ironPlate,	null,			ironPlate],
-  [ironPlate,	furnace,		ironPlate]]);
-
-craftingTable.addShaped("craftGenerator1", generator,
- [[null,		battery,		null],
-  [ironPlate,	ironPlate,		ironPlate],
-  [null,		ironFurnance,	null]]);
-  
-craftingTable.addShaped("craftGenerator2", generator,
- [[null,		battery,		null],
-  [null,		machineBlock,	null],
-  [null,		ironFurnance,	null]]);
-
-craftingTable.addShaped("craftPromWorkbench", promWorkbench,
- [[null,		null,			null],
-  [null,		workbench,		null],
-  [hammer,		machineBlock,	cutter]]);
-  
-craftingTable.addShaped("craftElectricFurnance", electricFurnance,
- [[null,		null,			null],
-  [null,		circuit,		null],
-  [redstone,	ironFurnance,	redstone]]);
-  
-craftingTable.addShaped("craftExtractor", extractor,
- [[null,		null,			null],
-  [treetap,		machineBlock,	treetap],
-  [treetap,		circuit,		treetap]]);
-  
-craftingTable.addShaped("craftCompressor", compressor,
- [[stone,		null,			stone],
-  [stone,		machineBlock,	stone],
-  [stone,		circuit,		stone]]);
-  
-craftingTable.addShaped("craftMacerator", macerator,
- [[flint,		flint,			flint],
-  [cobblestone,	machineBlock,	cobblestone],
-  [null,		circuit,		null]]);
-  
-craftingTable.addShaped("craftUtilizer", utilizer,
- [[null,		glowstone,		null],
-  [dirt,		compressor,		dirt],
-  [iron,		dirt,			iron]]);
-  
-craftingTable.addShaped("craftMetalFormer", metalFormer,
- [[null,		circuit,		null],
-  [toolBox,		machineBlock,	toolBox],
-  [coil,		coil,			coil]]);
-  
-craftingTable.addShaped("craftBatteryBox", batteryBox,
- [[planks,		tinInsulatedCable,	planks],
-  [battery,		battery,			battery],
-  [planks,		planks,				planks]]);
-  
