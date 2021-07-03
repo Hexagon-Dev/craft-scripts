@@ -1,7 +1,5 @@
 # HC-CraftScripts
 
-![Hex-Craft Logo](https://hex-craft.ru/templates/Standart/img/hexcraft.svg "Hex-Craft Logo")
-
 Файл скрипта - .zs
 
 Почти все названия предметов можно посмотреть в файлик MinecraftItems.log
