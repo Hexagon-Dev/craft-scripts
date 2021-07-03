@@ -12,6 +12,8 @@ val bronze = <ic2:ingot:1>;
 val uranium = <ic2:ingot:8>;
 val refinedIron = <ic2:ingot:7>;
 val iridium = <ore:ingotIridium>;
+val uran = <ic2:ingot:8>;
+val glowingUran = <super_solar_panels:crafting:4>;
 
 //Misc resources
 val redstone = <minecraft:redstone>;
@@ -25,6 +27,7 @@ val gunpowder = <minecraft:gunpowder>;
 
 //Blocks
 val ironBlock = <minecraft:iron_block>;
+val glowstoneBlock = <minecraft:glowstone>;
 val goldBlock = <minecraft:gold_block>;
 val tinBlock = <ic2:resource:9>;
 val copperBlock = <ic2:resource:6>;
@@ -87,25 +90,28 @@ val hydratedCoalDust = <ic2:dust:3>;
 val ashDust = <ic2:misc_resource>;
 
 //Cable
-val ironCable = <ore:itemIronCable>;
-val goldCable = <ore:itemGoldCable>;
-val tinCable = <ore:itemTinCable>;
-val copperCable = <ore:itemCopperCable>;
-val itemDetectorCable = <ore:itemDetectorCable>;
-val itemDetectorSplitter = <ore:itemDetectorSplitter>;
+val ironCable = <ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte});
+val goldCable = <ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte});
+val tinCable = <ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte});
+val copperCable = <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte});
 
 //Insulated Cable (изолированные)
-val ironInsulatedCable = <ore:itemInsulatedIronCable>;
-val goldInsulatedCable = <ore:itemInsulatedGoldCable>;
-val tinInsulatedCable = <ore:itemInsulatedTinCable>;
-val copperInsulatedCable = <ore:itemInsulatedCopperCable>;
-val glassInsulatedCable = <ore:itemInsulatedGlassCable>;
+val ironHalfInsulatedCable = <ic2:cable:3>.withTag({type: 3 as byte, insulation: 1 as byte});
+val ironFullInsulatedCable = <ic2:cable:3>.withTag({type: 3 as byte, insulation: 2 as byte});
+val ironDoubleInsulatedCable = <ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte});
+val goldHalfInsulatedCable = <ic2:cable:2>.withTag({type: 2 as byte, insulation: 1 as byte});
+val goldFullInsulatedCable = <ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte});
+val tinInsulatedCable = <ic2:cable:4>.withTag({type: 4 as byte, insulation: 1 as byte});
+val copperInsulatedCable = <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte});
+val glassInsulatedCable = <ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte});
 
 //Misc
 val furnace = <minecraft:furnace>;
 
 //Misc IC2
-val rubber = <ore:itemRubber>;
+val coalFibre = <ic2:crafting:13>;
+val carbonCloth = <ic2:crafting:14>;
+val rubber = <ic2:crafting>;
 val coil = <ic2:crafting:5>;
 val circuit = <ic2:crafting:1>;
 val circuitAdvanced = <ic2:crafting:2>;
@@ -116,7 +122,6 @@ val hammer = <ic2:forge_hammer>;
 val cutter = <ic2:cutter>;
 val treetap = <ic2:treetap>;
 val toolBox = <ic2:tool_box>;
-val drillBit = <comboarmors:assembly_drill_bit>;
 
 //Machines
 val machineBlock = <ic2:resource:12>;
@@ -131,8 +136,30 @@ val utilizer = <ic2:te:48>;
 val metalFormer = <ic2:te:55>;
 val batteryBox = <ic2:te:72>;
 
-craftingTable.addShaped("craftDrill", <comboarmors:assembly_drill>,
- [[drillBit,	ironPlate,		circuit],
-  [null,		null,			battery],
-  [null,		null,			ironPlate]]);
+recipes.addShapeless("craftCopperCable", copperInsulatedCable, [rubber, copperCable]);
+recipes.addShapeless("craftTinCable", tinInsulatedCable, [rubber, tinCable]);
 
+recipes.addShaped("optimizedGlowUran", glowingUran * 4,
+[[glowstoneBlock,	uran,	glowstoneBlock],
+ [uran,				null,	uran],
+ [glowstoneBlock,	uran,	glowstoneBlock]]);
+ 
+recipes.addShaped("optimizedInsulatedCopperCable", copperInsulatedCable * 3,
+[[copperCable,	rubber,	null],
+ [copperCable,	rubber,	null],
+ [copperCable,	rubber,	null]]);
+ 
+recipes.addShaped("optimizedCoalFibre", coalFibre * 2,
+[[coalDust,	coalDust,	coalDust],
+ [coalDust,	null,		coalDust],
+ [coalDust,	coalDust,	coalDust]]);
+ 
+recipes.addShaped("optimizedCarbonCloth", carbonCloth * 4,
+[[coalFibre,	coalFibre,	coalFibre],
+ [coalFibre,	null,		coalFibre],
+ [coalFibre,	coalFibre,	coalFibre]]);
+ 
+recipes.addShaped("optimizedGlowstone", glowstoneBlock * 2,
+[[glowstone,	glowstone,	glowstone],
+ [glowstone,	null,		glowstone],
+ [glowstone,	glowstone,	glowstone]]);
