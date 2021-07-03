@@ -164,17 +164,17 @@ recipes.addShaped("HexCopperCable", copperInsulatedCable * 4,
  [copperCable, null, copperCable],
  [rubber,	copperCable,  rubber]]);  
  
-recipes.addShaped("optimizedCopperBlock", copper * 45,
+recipes.addShaped("optimizedCopperBlock", copper * 63,
 [[copperBlock,	null,	copperBlock],
- [null,	copperBlock,		null],
+ [copperBlock,	copperBlock,		copperBlock],
  [copperBlock,	null,	copperBlock]]);
  
-recipes.addShaped("optimizedTinblock", tin * 45,
+recipes.addShaped("optimizedTinblock", tin * 63,
 [[tinBlock,	null,	tinBlock],
- [null,	tinBlock,		null],
+ [tinBlock,	tinBlock,		tinBlock],
  [tinBlock,	null,	tinBlock]]);
  
-recipes.addShaped("optimizedIronBlock", iron * 45,
+recipes.addShaped("optimizedIronBlock", iron * 63,
 [[ironBlock,	null,	ironBlock],
- [null,	ironBlock,		null],
+ [ironBlock,	ironBlock,		ironBlock],
  [ironBlock,	null,	ironBlock]]);
