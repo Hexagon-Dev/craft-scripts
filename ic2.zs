@@ -160,21 +160,21 @@ recipes.addShaped("optimizedGlowstone", glowstoneBlock * 2,
  [glowstone,	glowstone,	glowstone]]);
 
 recipes.addShaped("HexCopperCable", copperInsulatedCable * 4, 
-[[rubber,	copperCable,	rubber],
- [copperCable, null, copperCable],
- [rubber,	copperCable,  rubber]]);  
+[[rubber,		copperCable,	rubber],
+ [copperCable, 	null, 			copperCable],
+ [rubber,		copperCable,	rubber]]);  
  
 recipes.addShaped("optimizedCopperBlock", copper * 63,
-[[copperBlock,	null,	copperBlock],
- [copperBlock,	copperBlock,		copperBlock],
- [copperBlock,	null,	copperBlock]]);
+[[copperBlock,	null,			copperBlock],
+ [copperBlock,	copperBlock,	copperBlock],
+ [copperBlock,	null,			copperBlock]]);
  
 recipes.addShaped("optimizedTinblock", tin * 63,
-[[tinBlock,	null,	tinBlock],
- [tinBlock,	tinBlock,		tinBlock],
- [tinBlock,	null,	tinBlock]]);
+[[tinBlock,	null,		tinBlock],
+ [tinBlock,	tinBlock,	tinBlock],
+ [tinBlock,	null,		tinBlock]]);
  
 recipes.addShaped("optimizedIronBlock", iron * 63,
-[[ironBlock,	null,	ironBlock],
- [ironBlock,	ironBlock,		ironBlock],
- [ironBlock,	null,	ironBlock]]);
+[[ironBlock,	null,		ironBlock],
+ [ironBlock,	ironBlock,	ironBlock],
+ [ironBlock,	null,		ironBlock]]);
