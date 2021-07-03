@@ -1,4 +1,4 @@
-# CraftScriptIC2
+#HC-CraftScripts
 Сделано для лучшего майнкрафт проекта HexCraft. https://hex-craft.ru
 Файл скрипта - .zs
 
