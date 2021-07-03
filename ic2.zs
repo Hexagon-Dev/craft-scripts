@@ -144,11 +144,6 @@ recipes.addShaped("optimizedGlowUran", glowingUran * 4,
  [uran,				null,	uran],
  [glowstoneBlock,	uran,	glowstoneBlock]]);
  
-recipes.addShaped("optimizedInsulatedCopperCable", copperInsulatedCable * 3,
-[[copperCable,	rubber,	null],
- [copperCable,	rubber,	null],
- [copperCable,	rubber,	null]]);
- 
 recipes.addShaped("optimizedCoalFibre", coalFibre * 2,
 [[coalDust,	coalDust,	coalDust],
  [coalDust,	null,		coalDust],
@@ -163,3 +158,23 @@ recipes.addShaped("optimizedGlowstone", glowstoneBlock * 2,
 [[glowstone,	glowstone,	glowstone],
  [glowstone,	null,		glowstone],
  [glowstone,	glowstone,	glowstone]]);
+
+recipes.addShaped("HexCopperCable", copperInsulatedCable * 4, 
+[[rubber,	copperCable,	rubber],
+ [copperCable, null, copperCable],
+ [rubber,	copperCable,  rubber]]);  
+ 
+recipes.addShaped("optimizedCopperBlock", copper * 45,
+[[copperBlock,	null,	copperBlock],
+ [null,	copperBlock,		null],
+ [copperBlock,	null,	copperBlock]]);
+ 
+recipes.addShaped("optimizedTinblock", tin * 45,
+[[tinBlock,	null,	tinBlock],
+ [null,	tinBlock,		null],
+ [tinBlock,	null,	tinBlock]]);
+ 
+recipes.addShaped("optimizedIronBlock", iron * 45,
+[[ironBlock,	null,	ironBlock],
+ [null,	ironBlock,		null],
+ [ironBlock,	null,	ironBlock]]);
