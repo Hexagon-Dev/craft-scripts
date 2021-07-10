@@ -136,6 +136,11 @@ val utilizer = <ic2:te:48>;
 val metalFormer = <ic2:te:55>;
 val batteryBox = <ic2:te:72>;
 
+//AE2
+val volatileСrystall = <appliedenergistics2:material:7>;
+val cpuDiamond = <appliedenergistics2:material:24>;
+val tunnelEU = <appliedenergistics2:part:465>;
+
 recipes.addShapeless("craftCopperCable", copperInsulatedCable, [rubber, copperCable]);
 recipes.addShapeless("craftTinCable", tinInsulatedCable, [rubber, tinCable]);
 
@@ -178,3 +183,8 @@ recipes.addShaped("optimizedIronBlock", iron * 63,
 [[ironBlock,	null,		ironBlock],
  [ironBlock,	ironBlock,	ironBlock],
  [ironBlock,	null,		ironBlock]]);
+ 
+recipes.addShaped("tunnelEUforAE2", tunnelEU,
+[[null,				steel,				null],
+ [steel,			cpuDiamond,			steel],
+ [volatileСrystall,	volatileСrystall,	volatileСrystall]]);
