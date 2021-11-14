@@ -188,3 +188,17 @@ recipes.addShaped("tunnelEUforAE2", tunnelEU,
 [[null,				steel,				null],
  [steel,			cpuDiamond,			steel],
  [volatileСrystall,	volatileСrystall,	volatileСrystall]]);
+
+recipes.addShaped("HexRedstone", redstone * 63,
+[[redstone_block,	null,	redstone_block],
+ [redstone_block,	redstone_block,	redstone_block],
+ [redstone_block,	null,		redstone_block]]);
+
+recipes.addShaped("HexUran", <ore:ingotUranium> * 63,
+[[<ore:blockUranium>,	null,	<ore:blockUranium>],
+ [<ore:blockUranium>,	<ore:blockUranium>,	<ore:blockUranium>],
+ [<ore:blockUranium>,	null,	<ore:blockUranium>]]);
+
+
+
+
