@@ -46,6 +46,7 @@ val glass = <minecraft:glass>;
 val chest = <minecraft:chest>;
 val glassPane = <minecraft:glass_pane>;
 val planks = <minecraft:planks>;
+val redstone_block = <minecraft:redstone_block>;
 
 
 //Plates
