@@ -46,7 +46,8 @@ val glass = <minecraft:glass>;
 val chest = <minecraft:chest>;
 val glassPane = <minecraft:glass_pane>;
 val planks = <minecraft:planks>;
-val redstone_block = <minecraft:redstone_block>;
+val redstoneBlock = <minecraft:redstone_block>;
+val uraniumBlock = <ore:blockUranium>;
 
 
 //Plates
@@ -190,15 +191,15 @@ recipes.addShaped("tunnelEUforAE2", tunnelEU,
  [steel,			cpuDiamond,			steel],
  [volatileСrystall,	volatileСrystall,	volatileСrystall]]);
 
-recipes.addShaped("HexRedstone", redstone * 63,
-[[redstone_block,	null,	redstone_block],
- [redstone_block,	redstone_block,	redstone_block],
- [redstone_block,	null,		redstone_block]]);
+recipes.addShaped("optimizedRedstone", redstone * 63,
+[[redstoneBlock,	null,	redstoneBlock],
+ [redstoneBlock,	redstoneBlock,	redstoneBlock],
+ [redstoneBlock,	null,		redstoneBlock]]);
 
-recipes.addShaped("HexUran", <ore:ingotUranium> * 63,
-[[<ore:blockUranium>,	null,	<ore:blockUranium>],
- [<ore:blockUranium>,	<ore:blockUranium>,	<ore:blockUranium>],
- [<ore:blockUranium>,	null,	<ore:blockUranium>]]);
+recipes.addShaped("optimizedUranium", uranium * 63,
+[[uraniumBlock,	null,	uraniumBlock],
+ [uraniumBlock,	uraniumBlock,	uraniumBlock],
+ [uraniumBlock,	null,	uraniumBlock]]);
 
 
 
