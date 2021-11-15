@@ -201,6 +201,4 @@ recipes.addShaped("optimizedUranium", uranium * 63,
  [uraniumBlock,	uraniumBlock,	uraniumBlock],
  [uraniumBlock,	null,	uraniumBlock]]);
 
-
-
-
+ recipes.remove(<ic2:te:60>);
