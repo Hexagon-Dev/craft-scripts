@@ -35,6 +35,7 @@ val silverBlock = <ic2:resource:15>;
 val leadBlock = <ic2:resource:7>;
 val steelBlock = <ic2:resource:8>;
 val bronzeBlock = <ic2:resource:5>;
+val uraniumBlock = <ic2:resource:10>; 
 val stone = <minecraft:stone>;
 val dirt = <minecraft:dirt>;
 val cobblestone = <minecraft:cobblestone>;
@@ -47,7 +48,7 @@ val chest = <minecraft:chest>;
 val glassPane = <minecraft:glass_pane>;
 val planks = <minecraft:planks>;
 val redstoneBlock = <minecraft:redstone_block>;
-val uraniumBlock = <ore:blockUranium>;
+
 
 
 //Plates
@@ -139,7 +140,7 @@ val metalFormer = <ic2:te:55>;
 val batteryBox = <ic2:te:72>;
 
 //AE2
-val volatileСrystall = <appliedenergistics2:material:7>;
+val volatile = <appliedenergistics2:material:7>;
 val cpuDiamond = <appliedenergistics2:material:24>;
 val tunnelEU = <appliedenergistics2:part:465>;
 
@@ -189,16 +190,16 @@ recipes.addShaped("optimizedIronBlock", iron * 63,
 recipes.addShaped("tunnelEUforAE2", tunnelEU,
 [[null,				steel,				null],
  [steel,			cpuDiamond,			steel],
- [volatileСrystall,	volatileСrystall,	volatileСrystall]]);
-
-recipes.addShaped("optimizedRedstone", redstone * 63,
+ [volatile,			volatile,			volatile]]);
+ 
+ recipes.addShaped("optimizedRedstone", redstone * 63,
 [[redstoneBlock,	null,	redstoneBlock],
  [redstoneBlock,	redstoneBlock,	redstoneBlock],
  [redstoneBlock,	null,		redstoneBlock]]);
 
-recipes.addShaped("optimizedUranium", uranium * 63,
+recipes.addShaped("optimizedUranium", uran * 63,
 [[uraniumBlock,	null,	uraniumBlock],
  [uraniumBlock,	uraniumBlock,	uraniumBlock],
  [uraniumBlock,	null,	uraniumBlock]]);
-
- recipes.remove(<ic2:te:60>);
+ 
+recipes.remove(<ic2:te:60>);
