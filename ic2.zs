@@ -12,7 +12,7 @@ val bronze = <ic2:ingot:1>;
 val uranium = <ic2:ingot:8>;
 val refinedIron = <ic2:ingot:7>;
 val iridium = <ore:ingotIridium>;
-val uran = <ic2:ingot:8>;
+val uranium = <ic2:ingot:8>;
 val glowingUran = <super_solar_panels:crafting:4>;
 
 //Misc resources
@@ -140,7 +140,7 @@ val metalFormer = <ic2:te:55>;
 val batteryBox = <ic2:te:72>;
 
 //AE2
-val volatile = <appliedenergistics2:material:7>;
+val volatileCrystall = <appliedenergistics2:material:7>;
 val cpuDiamond = <appliedenergistics2:material:24>;
 val tunnelEU = <appliedenergistics2:part:465>;
 
@@ -190,14 +190,14 @@ recipes.addShaped("optimizedIronBlock", iron * 63,
 recipes.addShaped("tunnelEUforAE2", tunnelEU,
 [[null,				steel,				null],
  [steel,			cpuDiamond,			steel],
- [volatile,			volatile,			volatile]]);
+ [volatileCrystall,			volatileCrystall,			volatileCrystall]]);
  
  recipes.addShaped("optimizedRedstone", redstone * 63,
 [[redstoneBlock,	null,	redstoneBlock],
  [redstoneBlock,	redstoneBlock,	redstoneBlock],
  [redstoneBlock,	null,		redstoneBlock]]);
 
-recipes.addShaped("optimizedUranium", uran * 63,
+recipes.addShaped("optimizedUranium", uranium * 63,
 [[uraniumBlock,	null,	uraniumBlock],
  [uraniumBlock,	uraniumBlock,	uraniumBlock],
  [uraniumBlock,	null,	uraniumBlock]]);
