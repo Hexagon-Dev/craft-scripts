@@ -47,7 +47,7 @@ val chest = <minecraft:chest>;
 val glassPane = <minecraft:glass_pane>;
 val planks = <minecraft:planks>;
 val redstoneBlock = <minecraft:redstone_block>;
-val uraniumBlock = <ore:blockUranium>;
+val uraniumBlock = <ic2:resource:10>;
 
 
 //Plates
@@ -196,7 +196,7 @@ recipes.addShaped("optimizedRedstone", redstone * 63,
  [redstoneBlock,	redstoneBlock,	redstoneBlock],
  [redstoneBlock,	null,		redstoneBlock]]);
 
-recipes.addShaped("optimizedUranium", uranium * 63,
+recipes.addShaped("optimizedUranium", uran * 63,
 [[uraniumBlock,	null,	uraniumBlock],
  [uraniumBlock,	uraniumBlock,	uraniumBlock],
  [uraniumBlock,	null,	uraniumBlock]]);
