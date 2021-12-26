@@ -12,8 +12,7 @@ val bronze = <ic2:ingot:1>;
 val uranium = <ic2:ingot:8>;
 val refinedIron = <ic2:ingot:7>;
 val iridium = <ore:ingotIridium>;
-val uranium = <ic2:ingot:8>;
-val glowingUran = <super_solar_panels:crafting:4>;
+val uran = <industrialupgrade:itemiucrafring:2>;
 
 //Misc resources
 val redstone = <minecraft:redstone>;
@@ -140,66 +139,102 @@ val metalFormer = <ic2:te:55>;
 val batteryBox = <ic2:te:72>;
 
 //AE2
-val volatileCrystall = <appliedenergistics2:material:7>;
+val volatile = <appliedenergistics2:material:7>;
 val cpuDiamond = <appliedenergistics2:material:24>;
 val tunnelEU = <appliedenergistics2:part:465>;
 
 recipes.addShapeless("craftCopperCable", copperInsulatedCable, [rubber, copperCable]);
 recipes.addShapeless("craftTinCable", tinInsulatedCable, [rubber, tinCable]);
-
-recipes.addShaped("optimizedGlowUran", glowingUran * 4,
-[[glowstoneBlock,	uran,	glowstoneBlock],
- [uran,				null,	uran],
- [glowstoneBlock,	uran,	glowstoneBlock]]);
  
-recipes.addShaped("optimizedCoalFibre", coalFibre * 2,
-[[coalDust,	coalDust,	coalDust],
+recipes.addShaped("optimizedCoalFibre", coalFibre * 2, [
+ [coalDust,	coalDust,	coalDust],
  [coalDust,	null,		coalDust],
- [coalDust,	coalDust,	coalDust]]);
+ [coalDust,	coalDust,	coalDust]
+]);
  
-recipes.addShaped("optimizedCarbonCloth", carbonCloth * 4,
-[[coalFibre,	coalFibre,	coalFibre],
+recipes.addShaped("optimizedCarbonCloth", carbonCloth * 4, [
+ [coalFibre,	coalFibre,	coalFibre],
  [coalFibre,	null,		coalFibre],
- [coalFibre,	coalFibre,	coalFibre]]);
+ [coalFibre,	coalFibre,	coalFibre]
+]);
  
-recipes.addShaped("optimizedGlowstone", glowstoneBlock * 2,
-[[glowstone,	glowstone,	glowstone],
+recipes.addShaped("optimizedGlowstone", glowstoneBlock * 2, [
+ [glowstone,	glowstone,	glowstone],
  [glowstone,	null,		glowstone],
- [glowstone,	glowstone,	glowstone]]);
+ [glowstone,	glowstone,	glowstone]
+]);
 
-recipes.addShaped("HexCopperCable", copperInsulatedCable * 4, 
-[[rubber,		copperCable,	rubber],
+recipes.addShaped("HexCopperCable", copperInsulatedCable * 4, [
+ [rubber,		copperCable,	rubber],
  [copperCable, 	null, 			copperCable],
- [rubber,		copperCable,	rubber]]);  
+ [rubber,		copperCable,	rubber]
+]);  
  
-recipes.addShaped("optimizedCopperBlock", copper * 63,
-[[copperBlock,	null,			copperBlock],
+recipes.addShaped("optimizedCopperBlock", copper * 63, [
+ [copperBlock,	null,			copperBlock],
  [copperBlock,	copperBlock,	copperBlock],
- [copperBlock,	null,			copperBlock]]);
+ [copperBlock,	null,			copperBlock]
+]);
  
-recipes.addShaped("optimizedTinblock", tin * 63,
-[[tinBlock,	null,		tinBlock],
+recipes.addShaped("optimizedTinblock", tin * 63, [
+ [tinBlock,	null,		tinBlock],
  [tinBlock,	tinBlock,	tinBlock],
- [tinBlock,	null,		tinBlock]]);
+ [tinBlock,	null,		tinBlock]
+]);
  
-recipes.addShaped("optimizedIronBlock", iron * 63,
-[[ironBlock,	null,		ironBlock],
+recipes.addShaped("optimizedIronBlock", iron * 63, [
+ [ironBlock,	null,		ironBlock],
  [ironBlock,	ironBlock,	ironBlock],
- [ironBlock,	null,		ironBlock]]);
+ [ironBlock,	null,		ironBlock]
+]);
  
-recipes.addShaped("tunnelEUforAE2", tunnelEU,
-[[null,				steel,				null],
+recipes.addShaped("tunnelEUforAE2", tunnelEU, [
+ [null,				steel,				null],
  [steel,			cpuDiamond,			steel],
- [volatileCrystall,			volatileCrystall,			volatileCrystall]]);
+ [volatile,			volatile,			volatile]
+]);
  
- recipes.addShaped("optimizedRedstone", redstone * 63,
-[[redstoneBlock,	null,	redstoneBlock],
+recipes.addShaped("optimizedRedstone", redstone * 63, [
+ [redstoneBlock,	null,	redstoneBlock],
  [redstoneBlock,	redstoneBlock,	redstoneBlock],
- [redstoneBlock,	null,		redstoneBlock]]);
+ [redstoneBlock,	null,		redstoneBlock]
+]);
 
-recipes.addShaped("optimizedUranium", uranium * 63,
-[[uraniumBlock,	null,	uraniumBlock],
+recipes.addShaped("optimizedUranium", uran * 63, [
+ [uraniumBlock,	null,	uraniumBlock],
  [uraniumBlock,	uraniumBlock,	uraniumBlock],
- [uraniumBlock,	null,	uraniumBlock]]);
- 
+ [uraniumBlock,	null,	uraniumBlock]
+]);
+
+recipes.addShaped(<thermalinnovation:drill:3>, [
+ [null, <thermalfoundation:material:1027>, null],
+ [<thermalfoundation:material:165>, <ic2:iridium_drill:26>.anyDamage(), <thermalfoundation:material:165>],
+ [<thermalfoundation:material:1027>, <thermalfoundation:material:293>, <thermalfoundation:material:1027>]
+]);
+
+recipes.addShaped(<ic2:te:62>, [
+ [<ic2:resource:11>, <ic2:resource:11>, <ic2:resource:11>],
+ [<ic2:crystal_memory>, <ic2:resource:13>, <ic2:crystal_memory>],
+ [<ic2:crafting:3>, <ic2:crafting:2>, <ic2:crafting:3>]
+]);
+
+recipes.addShaped(<ic2:te:52>, [
+ [<ic2:crafting:5>, <ic2:crafting:2>, <ic2:crafting:5>],
+ [<ic2:crafting:3>, <ic2:resource:13>, <ic2:crafting:3>],
+ [<ic2:crafting:3>, <ic2:crafting:6>, <ic2:crafting:3>]
+]);
+
+recipes.addShaped(<industrialupgrade:basemachine:8>, [
+ [<industrialupgrade:circuit:10>, <ic2:resource:13>, <industrialupgrade:circuit:10>],
+ [<industrialupgrade:quantumitems3>, <industrialupgrade:itemcore:7>, <industrialupgrade:quantumitems3>],
+ [<industrialupgrade:quantumitems2>, <industrialupgrade:quantumitems2>, <industrialupgrade:quantumitems2>]
+]); 
+
+recipes.remove(<thermalinnovation:drill:3>);
+recipes.remove(<industrialupgrade:se_gen:0>);
+recipes.remove(<ic2:mining_laser>);
 recipes.remove(<ic2:te:60>);
+recipes.remove(<ic2:te:88>);
+recipes.remove(<ic2:te:62>);
+recipes.remove(<ic2:te:52>);
+recipes.remove(<industrialupgrade:basemachine:8>); 
